@@ -2684,7 +2684,7 @@ GameObject:
   - 23: {fileID: 854088884}
   m_Layer: 0
   m_Name: Aisle1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4059,7 +4059,7 @@ GameObject:
   - 23: {fileID: 1207223227}
   m_Layer: 0
   m_Name: Aisle1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4524,6 +4524,7 @@ GameObject:
   - 114: {fileID: 1324861164}
   - 114: {fileID: 1324861163}
   - 114: {fileID: 1324861162}
+  - 136: {fileID: 1324861166}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Untagged
@@ -4646,6 +4647,19 @@ CharacterController:
   m_StepOffset: .400000006
   m_SkinWidth: .0500000007
   m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1324861166
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1324861160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 2.05999994
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1342044694
 GameObject:
@@ -5144,7 +5158,7 @@ GameObject:
   - 23: {fileID: 1718201649}
   m_Layer: 0
   m_Name: Aisle1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5213,7 +5227,7 @@ GameObject:
   - 23: {fileID: 1733929366}
   m_Layer: 0
   m_Name: Aisle1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5419,9 +5433,10 @@ GameObject:
   - 65: {fileID: 1739672106}
   - 23: {fileID: 1739672105}
   - 114: {fileID: 1739672109}
+  - 54: {fileID: 1739672110}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5488,6 +5503,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ccd427509cfe74c97d6f21347b225b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &1739672110
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739672104}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1746312843
 GameObject:
   m_ObjectHideFlags: 0
