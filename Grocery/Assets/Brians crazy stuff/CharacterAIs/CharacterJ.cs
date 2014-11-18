@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class characterD : MonoBehaviour {
+
+//x = -8.336494
+//z = -6.641253
+public class CharacterJ : MonoBehaviour {
 	float x = 1f;
 	float y = 0f;
 	float z = 0f;
 	float speed = 1/35f;
 	int counter = 0;
-	int counterCheck = 100;
+	int counterCheck = 200;
 	int state = 0;
 	// Use this for initialization
 	void Start () {
@@ -16,7 +19,7 @@ public class characterD : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += new Vector3(x,y,z) * speed;
+		transform.position += new Vector3 (x, y, z) * speed;
 		if (counter == counterCheck) {
 			counter = 0;
 			state++;
@@ -27,27 +30,43 @@ public class characterD : MonoBehaviour {
 						x = 0;
 						y = 0;
 						z = 1;
+						counterCheck = 350;
 				} else if (state == 1) {
 						x = 0;
 						y = 0;
 						z = 0;
-						counterCheck = 100;
+						counterCheck = 150;
 			
 				} else if (state == 2) {
 						x = 0;
 						y = 0;
 						z = 1;
-						counterCheck = 100;
+						counterCheck = 200;
 			
 				} else if (state == 3) {
+						x = 0;
+						y = 0;
+						z = 0;
+						counterCheck = 200;
+				} else if (state == 4) {
+						x = 0;
+						y = 0;
+						z = -1;
+						counterCheck = 250;
+				} else if (state == 5) {
+						x = 0;
+						y = 0;
+						z = 0;
+						counterCheck = 150;
+				} else if (state == 6) {
 			x = 0;
 			y = 0;
 			z = -1;
-			counterCheck = 200;
+			counterCheck = 300;
 				}
-		else if (state == 4) {
+		else if (state == 7) {
 			state = 0;
-			counterCheck = 100;
+			
 			
 		}
 		
