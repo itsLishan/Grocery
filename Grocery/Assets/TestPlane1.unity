@@ -6684,7 +6684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 0}
   lastHit: {fileID: 0}
-  radius: .300000012
+  radius: .0299999993
 --- !u!1 &1342044694
 GameObject:
   m_ObjectHideFlags: 0
@@ -7277,6 +7277,7 @@ GameObject:
   - 33: {fileID: 1474888226}
   - 136: {fileID: 1474888225}
   - 23: {fileID: 1474888224}
+  - 114: {fileID: 1474888228}
   m_Layer: 0
   m_Name: Child
   m_TagString: Untagged
@@ -7337,6 +7338,18 @@ Transform:
   - {fileID: 343778232}
   m_Father: {fileID: 0}
   m_RootOrder: 24
+--- !u!114 &1474888228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474888223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b988708a665e6f47b17f5fb000fc271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: .0250000004
 --- !u!1 &1479103379
 GameObject:
   m_ObjectHideFlags: 0
@@ -9735,6 +9748,18 @@ Prefab:
     - target: {fileID: 11400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: useFixedUpdate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
