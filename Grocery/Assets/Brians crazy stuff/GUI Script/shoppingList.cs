@@ -21,11 +21,13 @@ public class shoppingList : MonoBehaviour {
 		GUI.Box (new Rect (Screen.width/2,Screen.height/2,10,10),"");
 
 		if (showList) {
-				GUI.Box (new Rect (10, 10, 100, 300), "Shopping List");
-				GUI.Box (new Rect (20, 40, 80, 20), "Red Box"); 
-				GUI.Box (new Rect (20, 60, 80, 20), "Green Box"); 
-				GUI.Box (new Rect (20, 80, 80, 20), "Blue Box"); 
-				GUI.Box (new Rect (20, 100, 80, 20), "Yellow Box"); 
+				GUI.Box (new Rect (10, 10, 150, 300), "Shopping List");
+				GUI.Box (new Rect (30, 40, 120, 30), "1.Red Box"); 
+				GUI.Box (new Rect (30, 70, 120, 30), "2.Lime Green Box"); 
+				GUI.Box (new Rect (30, 100, 120, 30), "3.Blue Box"); 
+				GUI.Box (new Rect (30, 130, 120, 30), "4.Yellow Box"); 
+			GUI.Box (new Rect (30, 160, 120, 30), "5.Light Pink Box");
+			GUI.Box (new Rect (30, 190, 120, 30), "6.Teal Box");
 				}
 	}
 }
