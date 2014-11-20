@@ -20,7 +20,7 @@ public class pickingUpObject : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		rayDirection = cameraTransform.TransformDirection(Vector3.forward) + adjustment;
+		/*rayDirection = cameraTransform.TransformDirection(Vector3.forward) + adjustment;
 		rayStart = cameraTransform.position;
 		Debug.DrawRay(rayStart, rayDirection * length, Color.green);
 		
@@ -39,7 +39,7 @@ public class pickingUpObject : MonoBehaviour {
 			}
 		}
 
-	
+	*/
 				}
 	void OnDrawGizmos(){
 		Gizmos.color = Color.white;

@@ -2,22 +2,23 @@
 using System.Collections;
 
 public class Athing : MonoBehaviour {
-	public GameObject other;
-	// Use this for initialization
-	void Start () {
-	
+	private SeeableObject _seeableObject;
+
+	void Awake () {
+		_seeableObject = GetComponent<SeeableObject> ();
 	}
+
+	void Start (){
+		}
 	
 	// Update is called once per frame
 	void Update () {
-		if (this.gameObject.GetComponent<PickUpAble>().LookedAt) {
-			//this.renderer.material.color = Color.red;
+		if (_seeableObject.beingLookedAt) {
+			print("i c u");
 			if (Input.GetMouseButtonDown(0)){
-				DestroyObject (other);
+				Destroy(this.gameObject);
 			}
 		}
-		//else
-			//this.renderer.material.color = Color.blue;
 	}
 	}
 
