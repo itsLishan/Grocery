@@ -5,18 +5,21 @@ public class ChildMove : MonoBehaviour {
 
 	// Use this for initialization
 	public float speed = 1/40f;
-	Vector3 newPosition;
+	private SeeableObject _seeableObject;
+	private Vector3 newPosition;
+	public bool startedRunning = false;
 
 	void Start () {
 		newPosition = this.transform.position;
+		_seeableObject = GetComponent<SeeableObject> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Time.time >= 20)
+		if (_seeableObject.timesSeen >0 && (!_seeableObject.beingLookedAt || startedRunning))
 		{
 			RunAway ();
-			this.transform.position = newPosition;
+			startedRunning = true;
 		}
 
 
@@ -33,7 +36,8 @@ public class ChildMove : MonoBehaviour {
 			if (newPosition.z < -2f)
 				newPosition.z += speed;
 			}
-
+		this.transform.position = newPosition;
 		}
+		
 	}
 
