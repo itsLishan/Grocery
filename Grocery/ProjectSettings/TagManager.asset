@@ -46,3 +46,15 @@ TagManager:
     userID: 1
     uniqueID: 884235219
     locked: 0
+  - name: Items
+    userID: 2
+    uniqueID: 884235219
+    locked: 0
+  - name: NPCs
+    userID: 3
+    uniqueID: 884235219
+    locked: 0
+  - name: User
+    userID: 4
+    uniqueID: 884235219
+    locked: 0
