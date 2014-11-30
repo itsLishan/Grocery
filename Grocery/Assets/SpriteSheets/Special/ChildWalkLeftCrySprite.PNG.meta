@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: ec55f369f40f9504eb2054d9d3da5290
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ChildWalkLeftCrySprite_0
+    21300002: ChildWalkLeftCrySprite_1
+    21300004: ChildWalkLeftCrySprite_2
+    21300006: ChildWalkLeftCrySprite_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,7 +35,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +46,46 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: ChildWalkLeftCrySprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChildWalkLeftCrySprite_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 64
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChildWalkLeftCrySprite_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 58
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChildWalkLeftCrySprite_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 64
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

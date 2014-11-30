@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: e25a64315f466e044ad151eb749c4823
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: c6walksprite_0
+    21300002: c6walksprite_1
+    21300004: c6walksprite_2
+    21300006: c6walksprite_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,7 +35,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +46,46 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: c6walksprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 187
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: c6walksprite_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 187
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: c6walksprite_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1
+        width: 187
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: c6walksprite_3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 187
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
