@@ -13,7 +13,7 @@ TagManager:
   Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
+  User Layer 8: Items
   User Layer 9: 
   User Layer 10: 
   User Layer 11: 
@@ -42,19 +42,19 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Default
+    userID: 5
+    uniqueID: 0
+    locked: 0
   - name: Aisle2
-    userID: 1
+    userID: 4
     uniqueID: 884235219
     locked: 0
   - name: Items
-    userID: 2
-    uniqueID: 884235219
-    locked: 0
-  - name: NPCs
     userID: 3
     uniqueID: 884235219
     locked: 0
-  - name: User
-    userID: 4
+  - name: NPCs
+    userID: 2
     uniqueID: 884235219
     locked: 0
