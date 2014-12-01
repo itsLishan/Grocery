@@ -26,8 +26,6 @@ public class EnterTriggerArea : MonoBehaviour {
 
 	void OnTriggerEnter (Collider collider)
 	{
-		if (collider.gameObject.name == player.name)
-			print ("player entered.");
 	}
 
 	void OnTriggerStay (Collider collider)

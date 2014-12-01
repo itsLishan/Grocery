@@ -14,7 +14,6 @@ public class Athing : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (_seeableObject.beingLookedAt) {
-			print("i c u");
 			if (Input.GetMouseButtonDown(0)){
 				Destroy(this.gameObject);
 			}
