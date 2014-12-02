@@ -1,7 +1,9 @@
 fileFormatVersion: 2
 guid: 133bebf113508934690156fa487925ca
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: c4grabsprite_0
+    21300002: c4grabsprite_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -42,6 +44,26 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: c4grabsprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 228
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: c4grabsprite_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 221
+        height: 327
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

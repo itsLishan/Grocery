@@ -49,12 +49,12 @@ TextureImporter:
     - name: HurtBackGrab_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 177
-        width: 5
-        height: 9
+        x: 0
+        y: 0
+        width: 187
+        height: 346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: HurtBackGrab_1
       rect:
