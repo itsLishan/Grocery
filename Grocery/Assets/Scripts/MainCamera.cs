@@ -15,9 +15,9 @@ public class MainCamera : MonoBehaviour {
 	void Awake(){
 		player = GameObject.FindWithTag ("Player");
 		playerComponent = player.GetComponent<Character> ();
-		frontPositionZ = -17f;
+		/*frontPositionZ = -17f;
 		backPositionZ = 20f;
-		permanentPositionY = 1.75f;
+		permanentPositionY = 1.75f;*/
 	}
 
 	void Start() {
