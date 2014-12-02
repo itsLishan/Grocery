@@ -3852,7 +3852,6 @@ GameObject:
   - 81: {fileID: 82724480}
   - 114: {fileID: 82724479}
   - 114: {fileID: 82724485}
-  - 114: {fileID: 82724486}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -3953,18 +3952,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemList2: {fileID: 2800000, guid: 0c2c2b65ae6502640b55819df6ea46ce, type: 3}
---- !u!114 &82724486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 82724478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e56f248b8cef0194fbc4531329832f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Intro_popup: {fileID: 0}
 --- !u!1 &82851095
 GameObject:
   m_ObjectHideFlags: 0
@@ -7560,7 +7547,7 @@ GameObject:
   - 143: {fileID: 164437685}
   m_Layer: 0
   m_Name: C11box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18540,7 +18527,7 @@ GameObject:
   - 143: {fileID: 447466276}
   m_Layer: 0
   m_Name: C8box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19275,7 +19262,7 @@ GameObject:
   - 143: {fileID: 458496019}
   m_Layer: 0
   m_Name: HurtBackBox
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19410,7 +19397,7 @@ GameObject:
   - 143: {fileID: 462928878}
   m_Layer: 0
   m_Name: ChildBox
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31599,7 +31586,7 @@ GameObject:
   - 143: {fileID: 744321518}
   m_Layer: 0
   m_Name: C4box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42161,7 +42148,7 @@ GameObject:
   - 143: {fileID: 1005393025}
   m_Layer: 0
   m_Name: C9box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44431,7 +44418,7 @@ GameObject:
   - 143: {fileID: 1060609140}
   m_Layer: 0
   m_Name: C6box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49376,7 +49363,7 @@ GameObject:
   - 143: {fileID: 1173080939}
   m_Layer: 0
   m_Name: C1box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59465,7 +59452,7 @@ GameObject:
   - 143: {fileID: 1415540681}
   m_Layer: 0
   m_Name: C2box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72428,7 +72415,7 @@ GameObject:
   - 143: {fileID: 1752414461}
   m_Layer: 0
   m_Name: C12box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74702,7 +74689,7 @@ GameObject:
   - 143: {fileID: 1812039821}
   m_Layer: 0
   m_Name: C3box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76791,7 +76778,7 @@ GameObject:
   - 143: {fileID: 1854366557}
   m_Layer: 0
   m_Name: ParentBox
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86332,7 +86319,7 @@ GameObject:
   - 143: {fileID: 2089614722}
   m_Layer: 0
   m_Name: C5box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87953,7 +87940,7 @@ GameObject:
   - 143: {fileID: 2145071630}
   m_Layer: 0
   m_Name: C10box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

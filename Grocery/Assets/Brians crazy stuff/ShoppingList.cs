@@ -25,5 +25,7 @@ public class ShoppingList : MonoBehaviour {
 		if (shoppingList) {
 						GUI.Label (new Rect ((Screen.width / 3) * 2, Screen.height / 20, 400, 400), ItemList2);
 				}
+
+
 	}
 }
