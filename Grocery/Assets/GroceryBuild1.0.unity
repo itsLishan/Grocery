@@ -2541,7 +2541,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 55208050}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -3871,7 +3871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1209885328}
   frontPositionZ: 6.4000001
-  backPositionZ: 0
+  backPositionZ: 39
   permanentPositionY: 2.22000003
   aisleCameraPositionX: 37.5
 --- !u!81 &82724480
@@ -50125,7 +50125,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1209885328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.24528599, y: 1.93638945, z: 9.67815971}
+  m_LocalPosition: {x: -7.69825506, y: 1.93638945, z: 9.67815971}
   m_LocalScale: {x: 3.81499195, y: 3.81499362, z: .858375788}
   m_Children:
   - {fileID: 892586397}
@@ -50214,7 +50214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20803ba72ee6dd4eb654b947f0d46c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
 --- !u!1 &1211513106
 GameObject:
   m_ObjectHideFlags: 0
@@ -85243,7 +85243,7 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2096376721}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
