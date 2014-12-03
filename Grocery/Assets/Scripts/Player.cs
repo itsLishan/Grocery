@@ -15,6 +15,9 @@ public class Player : MonoBehaviour {
 	public bool isHelping;
 	public int grabCounter = 0;
 	public int helpCounter = 0;
+	bool wasWalkingRight = true;
+	float currentDirection = 1;
+	float currentAngle;
 
 	
 	void Awake (){
@@ -58,7 +61,11 @@ public class Player : MonoBehaviour {
 			walkAnimation.SetActive (true);
 			helpAnimation.SetActive (false);
 
-			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical") * 3);
+			currentDirection = Input.GetAxis ("Horizontal");
+			currentAngle = transform.localEulerAngles.y;
+			if (currentDirection < 0 && wasWalkingRight)
+				transform.eulerAngles = new Vector3(0,currentAngle + 180 ,0);
+			moveDirection = new Vector3(Mathf.Abs (currentDirection), 0, Input.GetAxis("Vertical") * 3);
 			moveDirection = transform.TransformDirection(moveDirection);
 			moveDirection *= speed;
 			controller.Move (moveDirection * Time.deltaTime);

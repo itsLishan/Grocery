@@ -14332,7 +14332,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: -1.90734863e-06}
 --- !u!1 &246268591
 GameObject:
@@ -25218,7 +25218,7 @@ MonoBehaviour:
   walk: {fileID: 783368707}
   grabBack: {fileID: 1008886708}
   hurt: {fileID: 1563564243}
-  standing: {fileID: 783368707}
+  standing: {fileID: 1376239796}
   actor: {fileID: 0}
   state: 0
   player: {fileID: 0}
@@ -29890,7 +29890,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: -1.90734863e-06}
 --- !u!1 &555331396
 GameObject:
@@ -39622,6 +39622,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 718141454}
   - 212: {fileID: 718141453}
+  - 65: {fileID: 718141456}
   - 65: {fileID: 718141455}
   m_Layer: 0
   m_Name: Bakery-Cake
@@ -39674,7 +39675,19 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
+  m_Center: {x: -9.53674316e-07, y: 0, z: 0}
+--- !u!65 &718141456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718141452}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: 0}
 --- !u!1 &718836503
 GameObject:
@@ -45169,7 +45182,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: 0}
 --- !u!1 &808487644
 GameObject:
@@ -45534,7 +45547,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: -1.90734863e-06}
 --- !u!1 &822081900
 GameObject:
@@ -48304,7 +48317,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: 0}
 --- !u!1 &891905546
 GameObject:
@@ -73342,7 +73355,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: 0}
 --- !u!1 &1359411653
 GameObject:
@@ -88634,7 +88647,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
+  m_Size: {x: .840000093, y: .379999995, z: .200000033}
   m_Center: {x: -9.53674316e-07, y: 0, z: -1.90734863e-06}
 --- !u!1 &1635367960
 GameObject:

@@ -7,7 +7,7 @@ public class HurtBack : MonoBehaviour {
 	public GameObject hurt;
 	public GameObject standing;
 	public ActorSee actor;
-	public int state = -2;
+	public int state = -4;
 	public GameObject player;
 	Player playerComponent;
 	public bool wasHelped = false;
@@ -21,7 +21,7 @@ public class HurtBack : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (state < 3 && (actor.isSeen && state % 2 == 0)|| (!actor.isSeen && state%2 != 0))
+		if (state < 3 && ((actor.isSeen && state % 2 == 0)|| (!actor.isSeen && state%2 != 0)))
 			state++;
 		
 		if (wasHelped) {
