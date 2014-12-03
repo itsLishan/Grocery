@@ -12,7 +12,7 @@ public class NPC : MonoBehaviour {
 	void Awake () {
 		controller = GetComponent<CharacterController> ();
 		character = GetComponent<Character> ();
-		speed = 20f;
+		//speed = 20f;
 	}
 
 	void Update () {
