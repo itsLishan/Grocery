@@ -15,6 +15,9 @@ public class TimerTime : MonoBehaviour {
 		if (Input.GetKeyDown ("d")){
 			start = true;
 		}
+		if (Input.GetKeyDown ("right")) {
+			start = true;
+				}
 		if (start) {//delete me
 						if (Seconds <= 0) { 
 								Seconds = 59;
