@@ -483,7 +483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &399057862
 Transform:
   m_ObjectHideFlags: 0
@@ -1161,7 +1161,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039361960}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 6b656ce96ab01284c8264141032b89a7, type: 2}
   m_CullingMode: 0
@@ -1175,7 +1175,7 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039361960}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
@@ -1593,7 +1593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!143 &1371695821
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1936,8 +1936,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87efe18a565a4088bd4f27c86787ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seconds: 0
-  Minutes: 3
+  Restart: {fileID: 2800000, guid: 149a63ae54d3880478d9746328dcfe12, type: 3}
+  Seconds: 5
+  Minutes: 0
 --- !u!1001 &1766313862
 Prefab:
   m_ObjectHideFlags: 0
@@ -2132,7 +2133,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882296658}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: dc662b9c94d6b2847a7fb144a615eb2c, type: 2}
   m_CullingMode: 0
@@ -2146,7 +2147,7 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882296658}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
@@ -2350,8 +2351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87efe18a565a4088bd4f27c86787ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Restart: {fileID: 2800000, guid: 149a63ae54d3880478d9746328dcfe12, type: 3}
   Seconds: 0
-  Minutes: 3
+  Minutes: 2
 --- !u!81 &2042864575
 AudioListener:
   m_ObjectHideFlags: 0

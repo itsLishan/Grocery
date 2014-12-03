@@ -2,12 +2,16 @@
 using System.Collections;
 
 public class TimerTime : MonoBehaviour {
+	public Texture2D Restart;
 	public float Seconds = 59;
 	public float Minutes = 0;
 	bool start = false;
+	bool end = false;
 
 	void Update () 
 	{
+
+
 		if (Input.GetKeyDown ("d")){
 			start = true;
 		}
@@ -19,7 +23,9 @@ public class TimerTime : MonoBehaviour {
 								} else {
 										Minutes = 0;
 										Seconds = 0;
+					end = true;
 										GameObject.Find ("TimerText").guiText.text = Minutes.ToString ("f0") + ":" + Seconds.ToString ("f0");
+
 								}
 						} else { 
 								Seconds -= Time.deltaTime;
@@ -33,6 +39,17 @@ public class TimerTime : MonoBehaviour {
 		{
 			GameObject.Find("TimerText").guiText.text = Minutes.ToString("f0") + ":" + Seconds.ToString("f0");
 		}
+
+	
 		}
+	void OnGUI(){
+
+		if (end) {
+			if (GUI.Button (new Rect (Screen.width/2, Screen.height/2, 200, 200), "The Store has Closed!\nRestart")) {
+				Application.LoadLevel("GroceryBuild1.0");
+			}
+						GUI.Label (new Rect (Screen.width/2, Screen.height/2, 400, 400), Restart);
+				}
+	}
 	}
 
