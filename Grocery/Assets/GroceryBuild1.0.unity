@@ -283,7 +283,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 10194206}
   - 212: {fileID: 10194207}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Oils (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -832,7 +832,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 26126657}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1463,7 +1463,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 34675239}
   - 212: {fileID: 34675240}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1813,7 +1813,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 40426169}
   - 212: {fileID: 40426170}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_InstantDessert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1913,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 40781470}
   - 212: {fileID: 40781471}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1963,7 +1963,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 41756416}
   - 212: {fileID: 41756415}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2063,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 43969975}
   - 212: {fileID: 43969974}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2165,7 +2165,7 @@ GameObject:
   - 33: {fileID: 45023638}
   - 65: {fileID: 45023637}
   - 23: {fileID: 45023636}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2726,7 +2726,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 52587572}
   - 212: {fileID: 52587573}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2827,7 +2827,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 53254106}
   - 212: {fileID: 53254107}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2879,7 +2879,7 @@ GameObject:
   - 33: {fileID: 55208053}
   - 65: {fileID: 55208052}
   - 23: {fileID: 55208051}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3046,7 +3046,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 57673935}
   - 212: {fileID: 57673936}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3169,7 +3169,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 58795867}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3212,7 +3212,7 @@ GameObject:
   - 33: {fileID: 60181770}
   - 65: {fileID: 60181769}
   - 23: {fileID: 60181768}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3411,7 +3411,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 61249362}
   - 212: {fileID: 61249361}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Baking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3911,7 +3911,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 73484543}
   - 212: {fileID: 73484544}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4291,7 +4291,8 @@ GameObject:
   - 114: {fileID: 82724479}
   - 114: {fileID: 82724485}
   - 114: {fileID: 82724486}
-  m_Layer: 0
+  - 114: {fileID: 82724487}
+  m_Layer: 2
   m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -4403,6 +4404,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Intro: {fileID: 2800000, guid: 0cd3c4549f3257143adf9ebb8ca897a4, type: 3}
+--- !u!114 &82724487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82724478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef2d4da2cf0fcb44a89fce2e2e499972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &82851095
 GameObject:
   m_ObjectHideFlags: 0
@@ -4512,7 +4524,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 84026826}
   - 212: {fileID: 84026827}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_InstantDessert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5062,7 +5074,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 98867625}
   - 212: {fileID: 98867626}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5165,7 +5177,7 @@ GameObject:
   - 65: {fileID: 99441778}
   - 23: {fileID: 99441777}
   - 114: {fileID: 99441780}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5246,7 +5258,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 99518617}
   - 212: {fileID: 99518618}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Oils (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5396,7 +5408,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 101869239}
   - 212: {fileID: 101869240}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5595,7 +5607,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 103180978}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle6RightSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5830,7 +5842,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 108493371}
   - 212: {fileID: 108493372}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6080,7 +6092,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 117660645}
   - 212: {fileID: 117660644}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Beverages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6180,7 +6192,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 118586738}
   - 212: {fileID: 118586737}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6480,7 +6492,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 128345505}
   - 212: {fileID: 128345506}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6832,7 +6844,7 @@ GameObject:
   - 33: {fileID: 136625375}
   - 65: {fileID: 136625374}
   - 23: {fileID: 136625373}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7048,7 +7060,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 138106795}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lots-o-Carts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7300,7 +7312,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 147702208}
   - 212: {fileID: 147702209}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7802,7 +7814,7 @@ GameObject:
   - 33: {fileID: 157228187}
   - 136: {fileID: 157228186}
   - 23: {fileID: 157228185}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7870,7 +7882,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 158091945}
   - 212: {fileID: 158091944}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8123,7 +8135,7 @@ GameObject:
   - 65: {fileID: 160048303}
   - 23: {fileID: 160048302}
   - 114: {fileID: 160048306}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8206,7 +8218,7 @@ GameObject:
   - 33: {fileID: 161246391}
   - 65: {fileID: 161246390}
   - 23: {fileID: 161246389}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8478,7 +8490,7 @@ GameObject:
   - 143: {fileID: 164437685}
   - 114: {fileID: 164437691}
   - 114: {fileID: 164437690}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C11box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8642,7 +8654,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 167241752}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8922,7 +8934,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 172365658}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle1RightSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9205,7 +9217,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 177022246}
   - 212: {fileID: 177022247}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9355,7 +9367,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 179742609}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9400,7 +9412,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 179817242}
   - 212: {fileID: 179817241}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_InstantDessert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9450,7 +9462,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 180361261}
   - 212: {fileID: 180361262}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9652,7 +9664,7 @@ GameObject:
   - 33: {fileID: 186662196}
   - 65: {fileID: 186662195}
   - 23: {fileID: 186662194}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9819,7 +9831,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 189045083}
   - 212: {fileID: 189045084}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9969,7 +9981,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 190528305}
   - 212: {fileID: 190528304}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Canned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10070,7 +10082,7 @@ GameObject:
   - 4: {fileID: 191395804}
   - 212: {fileID: 191395803}
   - 95: {fileID: 191395805}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c3walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10540,7 +10552,7 @@ GameObject:
   - 65: {fileID: 209030560}
   - 23: {fileID: 209030559}
   - 114: {fileID: 209030562}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTrigger5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10626,7 +10638,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 211431209}
   - 212: {fileID: 211431208}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10826,7 +10838,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 217080066}
   - 212: {fileID: 217080065}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Canned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11386,7 +11398,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 229592498}
   - 212: {fileID: 229592499}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12086,7 +12098,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 239346208}
   - 212: {fileID: 239346207}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_InstantDessert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12136,7 +12148,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 240301687}
   - 212: {fileID: 240301688}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Breakfast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12466,7 +12478,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 246383979}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12515,7 +12527,7 @@ GameObject:
   - 33: {fileID: 250974070}
   - 65: {fileID: 250974069}
   - 23: {fileID: 250974068}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12635,7 +12647,7 @@ GameObject:
   - 65: {fileID: 253095231}
   - 23: {fileID: 253095230}
   - 114: {fileID: 253095229}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12924,7 +12936,7 @@ GameObject:
   - 65: {fileID: 266129440}
   - 23: {fileID: 266129439}
   - 114: {fileID: 266129442}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13171,7 +13183,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 278351229}
   - 212: {fileID: 278351230}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13423,7 +13435,7 @@ GameObject:
   - 33: {fileID: 284291605}
   - 136: {fileID: 284291604}
   - 23: {fileID: 284291603}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13593,7 +13605,7 @@ GameObject:
   - 33: {fileID: 287210067}
   - 136: {fileID: 287210066}
   - 23: {fileID: 287210065}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13662,7 +13674,7 @@ GameObject:
   - 4: {fileID: 287239813}
   - 212: {fileID: 287239814}
   - 95: {fileID: 287239815}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c9Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13779,7 +13791,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 290036510}
   - 212: {fileID: 290036509}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14578,7 +14590,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 302785351}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTriggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14762,7 +14774,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 308252421}
   - 212: {fileID: 308252422}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14812,7 +14824,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 310182675}
   - 212: {fileID: 310182674}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Crackers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14963,7 +14975,7 @@ GameObject:
   - 4: {fileID: 313746528}
   - 212: {fileID: 313746527}
   - 95: {fileID: 313746529}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c12Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15130,7 +15142,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 317589705}
   - 212: {fileID: 317589706}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Dairy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15230,7 +15242,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 322187097}
   - 212: {fileID: 322187098}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15283,7 +15295,7 @@ GameObject:
   - 65: {fileID: 322690808}
   - 23: {fileID: 322690807}
   - 114: {fileID: 322690810}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTrigger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15419,7 +15431,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 327909743}
   - 212: {fileID: 327909744}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15821,7 +15833,7 @@ GameObject:
   - 33: {fileID: 333778360}
   - 136: {fileID: 333778359}
   - 23: {fileID: 333778358}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16038,7 +16050,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 334242888}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16269,7 +16281,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 342995800}
   - 212: {fileID: 342995801}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Mix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16369,7 +16381,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 348015106}
   - 212: {fileID: 348015107}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16469,7 +16481,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 354955611}
   - 212: {fileID: 354955610}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Vitamins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16569,7 +16581,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 357041833}
   - 212: {fileID: 357041832}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16619,7 +16631,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 358912863}
   - 212: {fileID: 358912864}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16671,7 +16683,7 @@ GameObject:
   - 33: {fileID: 360975084}
   - 65: {fileID: 360975083}
   - 23: {fileID: 360975082}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16738,7 +16750,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 361336190}
   - 212: {fileID: 361336189}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17039,7 +17051,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 367077825}
   - 212: {fileID: 367077824}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17323,7 +17335,7 @@ GameObject:
   - 33: {fileID: 371711523}
   - 65: {fileID: 371711522}
   - 23: {fileID: 371711521}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17489,7 +17501,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 373797164}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle2RightSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18256,7 +18268,7 @@ GameObject:
   - 33: {fileID: 390275898}
   - 64: {fileID: 390275897}
   - 23: {fileID: 390275896}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18774,7 +18786,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400952167}
   - 212: {fileID: 400952166}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Baking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18825,7 +18837,7 @@ GameObject:
   - 4: {fileID: 403109967}
   - 212: {fileID: 403109968}
   - 95: {fileID: 403109969}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c8Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18992,7 +19004,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 408745559}
   - 212: {fileID: 408745560}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19094,7 +19106,7 @@ GameObject:
   - 33: {fileID: 410149930}
   - 65: {fileID: 410149929}
   - 23: {fileID: 410149928}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19278,6 +19290,30 @@ Prefab:
     - target: {fileID: 11400004, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
       propertyPath: CameraPositionX
       value: 30.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
@@ -19893,7 +19929,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 426275789}
   - 212: {fileID: 426275790}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20093,7 +20129,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 430829942}
   - 212: {fileID: 430829943}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20243,7 +20279,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 433664265}
   - 212: {fileID: 433664266}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20445,7 +20481,7 @@ GameObject:
   - 33: {fileID: 440147405}
   - 65: {fileID: 440147404}
   - 23: {fileID: 440147403}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20762,7 +20798,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 445507585}
   - 212: {fileID: 445507586}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20917,7 +20953,7 @@ GameObject:
   - 143: {fileID: 447466276}
   - 114: {fileID: 447466282}
   - 114: {fileID: 447466281}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C8box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21082,7 +21118,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 447953159}
   - 212: {fileID: 447953158}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21964,7 +22000,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 471896532}
   - 212: {fileID: 471896533}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22264,7 +22300,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 478439064}
   - 212: {fileID: 478439065}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Pets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23038,7 +23074,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 491309788}
   - 212: {fileID: 491309789}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23190,7 +23226,7 @@ GameObject:
   - 33: {fileID: 493181100}
   - 136: {fileID: 493181099}
   - 23: {fileID: 493181098}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23974,7 +24010,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 509328816}
   - 212: {fileID: 509328815}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Canned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24373,7 +24409,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 516299818}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24506,7 +24542,7 @@ GameObject:
   - 33: {fileID: 519246481}
   - 136: {fileID: 519246480}
   - 23: {fileID: 519246479}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24674,7 +24710,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 524426333}
   - 212: {fileID: 524426334}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25145,7 +25181,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 534119756}
   - 212: {fileID: 534119757}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25197,7 +25233,7 @@ GameObject:
   - 33: {fileID: 534186875}
   - 136: {fileID: 534186874}
   - 23: {fileID: 534186873}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25466,7 +25502,7 @@ GameObject:
   - 4: {fileID: 544678077}
   - 212: {fileID: 544678076}
   - 95: {fileID: 544678078}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c8walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25533,7 +25569,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 544965393}
   - 212: {fileID: 544965392}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bakery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25583,7 +25619,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 546272055}
   - 212: {fileID: 546272056}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25934,7 +25970,7 @@ GameObject:
   - 4: {fileID: 555595298}
   - 212: {fileID: 555595297}
   - 95: {fileID: 555595299}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c11walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26001,7 +26037,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 556022146}
   - 212: {fileID: 556022145}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26432,7 +26468,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 564339156}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle2LeftSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26665,7 +26701,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 570198737}
   - 212: {fileID: 570198738}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26815,7 +26851,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 577199471}
   - 212: {fileID: 577199472}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27015,7 +27051,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 581764488}
   - 212: {fileID: 581764487}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27266,7 +27302,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 586404509}
   - 212: {fileID: 586404508}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27566,7 +27602,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 593567670}
   - 212: {fileID: 593567671}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27816,7 +27852,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 600504298}
   - 212: {fileID: 600504297}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Drugs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28018,7 +28054,7 @@ GameObject:
   - 33: {fileID: 608144757}
   - 136: {fileID: 608144756}
   - 23: {fileID: 608144755}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28339,7 +28375,7 @@ GameObject:
   - 65: {fileID: 610821335}
   - 23: {fileID: 610821334}
   - 114: {fileID: 610821337}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28519,7 +28555,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 612142713}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ExtraAisle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28564,7 +28600,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 613337792}
   - 212: {fileID: 613337793}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28766,7 +28802,7 @@ GameObject:
   - 33: {fileID: 618256296}
   - 65: {fileID: 618256295}
   - 23: {fileID: 618256294}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29033,7 +29069,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 620827933}
   - 212: {fileID: 620827934}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Canned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29084,7 +29120,7 @@ GameObject:
   - 4: {fileID: 621585623}
   - 212: {fileID: 621585624}
   - 95: {fileID: 621585625}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c10Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29201,7 +29237,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 623918569}
   - 212: {fileID: 623918570}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29367,7 +29403,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 627125363}
   - 212: {fileID: 627125362}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29466,7 +29502,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 627954046}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29697,7 +29733,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 633549838}
   - 212: {fileID: 633549839}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29847,7 +29883,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 635832793}
   - 212: {fileID: 635832792}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Snacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30047,7 +30083,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 641365590}
   - 212: {fileID: 641365589}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Drugs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30396,7 +30432,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 649382662}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle4LeftSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30581,7 +30617,7 @@ GameObject:
   - 4: {fileID: 651047188}
   - 212: {fileID: 651047187}
   - 95: {fileID: 651047189}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c6walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30897,7 +30933,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 657298721}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleLabels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31236,7 +31272,7 @@ GameObject:
   - 4: {fileID: 659005221}
   - 212: {fileID: 659005222}
   - 95: {fileID: 659005223}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c5Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31553,7 +31589,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 664336725}
   - 212: {fileID: 664336724}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cashier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31804,7 +31840,7 @@ GameObject:
   - 4: {fileID: 670676819}
   - 212: {fileID: 670676818}
   - 95: {fileID: 670676820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c9walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32021,7 +32057,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 675054529}
   - 212: {fileID: 675054530}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32171,7 +32207,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 678520679}
   - 212: {fileID: 678520680}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32273,7 +32309,7 @@ GameObject:
   - 33: {fileID: 679290623}
   - 65: {fileID: 679290622}
   - 23: {fileID: 679290621}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33040,7 +33076,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 694277837}
   - 212: {fileID: 694277836}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Crackers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33139,7 +33175,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 695396933}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33784,7 +33820,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 709591134}
   - 212: {fileID: 709591135}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34034,7 +34070,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 717916395}
   - 212: {fileID: 717916396}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34184,7 +34220,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 718911211}
   - 212: {fileID: 718911212}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34634,7 +34670,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 732530053}
   - 212: {fileID: 732530052}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_FrozenDinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35039,7 +35075,7 @@ GameObject:
   - 143: {fileID: 744321518}
   - 114: {fileID: 744321524}
   - 114: {fileID: 744321523}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C4box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35356,7 +35392,7 @@ GameObject:
   - 33: {fileID: 746900387}
   - 136: {fileID: 746900386}
   - 23: {fileID: 746900385}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35675,7 +35711,7 @@ GameObject:
   - 4: {fileID: 751990161}
   - 212: {fileID: 751990160}
   - 95: {fileID: 751990162}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c4Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36594,7 +36630,7 @@ GameObject:
   - 33: {fileID: 764737157}
   - 136: {fileID: 764737156}
   - 23: {fileID: 764737155}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36664,7 +36700,7 @@ GameObject:
   - 33: {fileID: 767576726}
   - 65: {fileID: 767576725}
   - 23: {fileID: 767576724}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37131,7 +37167,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 774921896}
   - 212: {fileID: 774921895}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37334,7 +37370,7 @@ GameObject:
   - 65: {fileID: 781702152}
   - 23: {fileID: 781702151}
   - 114: {fileID: 781702154}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37414,7 +37450,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 782072174}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle4RightSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37782,7 +37818,7 @@ GameObject:
   - 33: {fileID: 785344338}
   - 65: {fileID: 785344337}
   - 23: {fileID: 785344336}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37915,7 +37951,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 788685681}
   - 212: {fileID: 788685682}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38015,7 +38051,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 791094220}
   - 212: {fileID: 791094221}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38217,7 +38253,7 @@ GameObject:
   - 33: {fileID: 795861307}
   - 65: {fileID: 795861306}
   - 23: {fileID: 795861305}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38934,7 +38970,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 813881391}
   - 212: {fileID: 813881392}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38984,7 +39020,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 817465883}
   - 108: {fileID: 817465882}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Directional light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39097,7 +39133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 822081901}
   - 212: {fileID: 822081902}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39897,7 +39933,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 838759288}
   - 212: {fileID: 838759287}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cashier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40197,7 +40233,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 844577129}
   - 212: {fileID: 844577128}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Vitamins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40297,7 +40333,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 854525806}
   - 212: {fileID: 854525807}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40497,7 +40533,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 860855993}
   - 212: {fileID: 860855994}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40550,7 +40586,7 @@ GameObject:
   - 65: {fileID: 864198765}
   - 23: {fileID: 864198764}
   - 114: {fileID: 864198767}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTrigger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40985,7 +41021,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 882375035}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41168,7 +41204,7 @@ GameObject:
   - 33: {fileID: 885093857}
   - 65: {fileID: 885093856}
   - 23: {fileID: 885093855}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41486,7 +41522,7 @@ GameObject:
   - 4: {fileID: 892586397}
   - 212: {fileID: 892586396}
   - 95: {fileID: 892586398}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MainCWalk_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41551,7 +41587,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 892805522}
   - 212: {fileID: 892805521}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41700,7 +41736,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 893147193}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle5LeftSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41735,7 +41771,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 895120061}
   - 212: {fileID: 895120062}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41785,7 +41821,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 896541650}
   - 212: {fileID: 896541651}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42084,7 +42120,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 902823759}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42129,7 +42165,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 904332254}
   - 212: {fileID: 904332255}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42329,7 +42365,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 907950710}
   - 212: {fileID: 907950711}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42679,7 +42715,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 917926004}
   - 212: {fileID: 917926005}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43079,7 +43115,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 924070579}
   - 212: {fileID: 924070578}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_FrozenDinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43279,7 +43315,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 927371149}
   - 212: {fileID: 927371148}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43378,7 +43414,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 929134282}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44501,7 +44537,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 958134598}
   - 212: {fileID: 958134599}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44780,7 +44816,7 @@ GameObject:
   - 4: {fileID: 964446966}
   - 212: {fileID: 964446965}
   - 95: {fileID: 964446964}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C1WalkSprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44897,7 +44933,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 966996188}
   - 212: {fileID: 966996187}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Beverages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45567,7 +45603,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 978333212}
   - 212: {fileID: 978333213}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45819,7 +45855,7 @@ GameObject:
   - 33: {fileID: 990190371}
   - 65: {fileID: 990190370}
   - 23: {fileID: 990190369}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46516,7 +46552,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1004177838}
   - 212: {fileID: 1004177839}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Baking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46566,7 +46602,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1004915085}
   - 212: {fileID: 1004915084}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Pets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46621,7 +46657,7 @@ GameObject:
   - 143: {fileID: 1005393025}
   - 114: {fileID: 1005393031}
   - 114: {fileID: 1005393030}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C9box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46901,7 +46937,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1010183208}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ShelfTitles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47927,7 +47963,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1029260551}
   - 212: {fileID: 1029260550}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Crackers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48126,7 +48162,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1038434439}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48490,7 +48526,7 @@ GameObject:
   - 4: {fileID: 1049770479}
   - 212: {fileID: 1049770478}
   - 95: {fileID: 1049770480}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c12walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48610,7 +48646,7 @@ GameObject:
   - 65: {fileID: 1052812806}
   - 23: {fileID: 1052812805}
   - 114: {fileID: 1052812808}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48741,7 +48777,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1053745782}
   - 212: {fileID: 1053745783}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48946,7 +48982,7 @@ GameObject:
   - 143: {fileID: 1060609140}
   - 114: {fileID: 1060609146}
   - 114: {fileID: 1060609145}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C6box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49413,7 +49449,7 @@ GameObject:
   - 33: {fileID: 1071195250}
   - 136: {fileID: 1071195249}
   - 23: {fileID: 1071195248}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49805,7 +49841,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1074420280}
   - 212: {fileID: 1074420279}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49855,7 +49891,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1074715328}
   - 212: {fileID: 1074715329}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_FrozenDinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50425,7 +50461,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1086767157}
   - 212: {fileID: 1086767158}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50575,7 +50611,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1088302123}
   - 212: {fileID: 1088302122}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50728,7 +50764,7 @@ GameObject:
   - 33: {fileID: 1093185664}
   - 136: {fileID: 1093185663}
   - 23: {fileID: 1093185662}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50848,7 +50884,7 @@ GameObject:
   - 33: {fileID: 1096522684}
   - 64: {fileID: 1096522683}
   - 23: {fileID: 1096522682}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WorldFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51265,7 +51301,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1105081607}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51683,7 +51719,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1117245782}
   - 212: {fileID: 1117245783}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51783,7 +51819,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1119506324}
   - 212: {fileID: 1119506323}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51833,7 +51869,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1119630709}
   - 212: {fileID: 1119630710}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Pets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52232,7 +52268,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1125062346}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52321,7 +52357,7 @@ GameObject:
   - 4: {fileID: 1128864671}
   - 212: {fileID: 1128864673}
   - 95: {fileID: 1128864672}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MainCGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52537,7 +52573,7 @@ GameObject:
   - 4: {fileID: 1132464365}
   - 212: {fileID: 1132464366}
   - 95: {fileID: 1132464367}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c3Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53154,7 +53190,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1143108426}
   - 212: {fileID: 1143108427}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Canned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53681,7 +53717,7 @@ GameObject:
   - 65: {fileID: 1153890785}
   - 23: {fileID: 1153890784}
   - 114: {fileID: 1153890787}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53962,7 +53998,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1157939135}
   - 212: {fileID: 1157939136}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54112,7 +54148,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1159189307}
   - 212: {fileID: 1159189308}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54712,7 +54748,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1169031398}
   - 212: {fileID: 1169031399}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Pets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54867,7 +54903,7 @@ GameObject:
   - 143: {fileID: 1173080939}
   - 114: {fileID: 1173080938}
   - 114: {fileID: 1173080937}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C1box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54984,7 +55020,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1174299095}
   - 212: {fileID: 1174299094}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Drugs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55033,7 +55069,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1175510619}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle3LeftSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55616,7 +55652,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1181441767}
   - 108: {fileID: 1181441766}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Directional light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56079,7 +56115,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1191026118}
   - 212: {fileID: 1191026119}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56178,7 +56214,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1195919634}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle6LeftSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56213,7 +56249,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1196361209}
   - 212: {fileID: 1196361210}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56263,7 +56299,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1196490651}
   - 212: {fileID: 1196490652}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56463,7 +56499,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1206478227}
   - 212: {fileID: 1206478228}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56563,7 +56599,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1208876740}
   - 212: {fileID: 1208876739}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56718,7 +56754,7 @@ GameObject:
   - 143: {fileID: 1209885330}
   - 114: {fileID: 1209885335}
   - 114: {fileID: 1209885334}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -57231,7 +57267,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1225967147}
   - 212: {fileID: 1225967146}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Pets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57582,7 +57618,7 @@ GameObject:
   - 4: {fileID: 1230371968}
   - 212: {fileID: 1230371967}
   - 95: {fileID: 1230371969}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c11Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57699,7 +57735,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1231520403}
   - 212: {fileID: 1231520404}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58049,7 +58085,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1235323250}
   - 212: {fileID: 1235323249}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58101,7 +58137,7 @@ GameObject:
   - 33: {fileID: 1235727977}
   - 136: {fileID: 1235727976}
   - 23: {fileID: 1235727975}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58622,7 +58658,7 @@ GameObject:
   - 65: {fileID: 1243892917}
   - 23: {fileID: 1243892916}
   - 114: {fileID: 1243892919}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTrigger6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59010,7 +59046,7 @@ GameObject:
   - 33: {fileID: 1250743200}
   - 136: {fileID: 1250743199}
   - 23: {fileID: 1250743198}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59406,7 +59442,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1261101885}
   - 212: {fileID: 1261101886}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59857,7 +59893,7 @@ GameObject:
   - 4: {fileID: 1270140527}
   - 212: {fileID: 1270140526}
   - 95: {fileID: 1270140528}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c4walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60274,7 +60310,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1278947206}
   - 212: {fileID: 1278947205}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60324,7 +60360,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1279739630}
   - 212: {fileID: 1279739631}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Oils (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60624,7 +60660,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1285395238}
   - 212: {fileID: 1285395237}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Drugs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60874,7 +60910,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1296262651}
   - 212: {fileID: 1296262652}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61074,7 +61110,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1304904571}
   - 212: {fileID: 1304904572}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61174,7 +61210,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1307913971}
   - 212: {fileID: 1307913972}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61225,7 +61261,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1308688744}
   - 212: {fileID: 1308688745}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Beverages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61275,7 +61311,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1308718585}
   - 212: {fileID: 1308718584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Crackers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61375,7 +61411,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1310157007}
   - 212: {fileID: 1310157008}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61625,7 +61661,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1313667286}
   - 212: {fileID: 1313667287}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61875,7 +61911,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1320693610}
   - 212: {fileID: 1320693609}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Dairy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62025,7 +62061,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1326617578}
   - 212: {fileID: 1326617579}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62175,7 +62211,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1329005091}
   - 212: {fileID: 1329005092}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Pets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62725,7 +62761,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1343269823}
   - 212: {fileID: 1343269822}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63124,7 +63160,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1352682752}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64189,7 +64225,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1371522976}
   - 212: {fileID: 1371522977}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64340,7 +64376,7 @@ GameObject:
   - 4: {fileID: 1373481018}
   - 212: {fileID: 1373481020}
   - 95: {fileID: 1373481019}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C1Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64657,7 +64693,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1382557821}
   - 212: {fileID: 1382557820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Breakfast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65578,7 +65614,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1402450337}
   - 212: {fileID: 1402450336}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65967,7 +66003,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1410130017}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle3RightSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66155,7 +66191,7 @@ GameObject:
   - 143: {fileID: 1415540681}
   - 114: {fileID: 1415540686}
   - 114: {fileID: 1415540685}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C2box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66636,7 +66672,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1426964697}
   - 212: {fileID: 1426964696}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_FrozenDinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66686,7 +66722,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1429476713}
   - 212: {fileID: 1429476714}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66736,7 +66772,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1432973037}
   - 212: {fileID: 1432973036}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66786,7 +66822,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1433511455}
   - 212: {fileID: 1433511454}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Baking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66887,7 +66923,7 @@ GameObject:
   - 4: {fileID: 1434909407}
   - 212: {fileID: 1434909406}
   - 95: {fileID: 1434909408}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MainChelp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67452,7 +67488,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1442375450}
   - 212: {fileID: 1442375451}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67852,7 +67888,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1454875878}
   - 212: {fileID: 1454875877}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Snacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68429,7 +68465,7 @@ GameObject:
   - 65: {fileID: 1469280657}
   - 23: {fileID: 1469280656}
   - 114: {fileID: 1469280659}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68860,7 +68896,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1474270056}
   - 212: {fileID: 1474270055}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Beverages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68960,7 +68996,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1475483213}
   - 212: {fileID: 1475483212}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69376,7 +69412,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1486697404}
   - 212: {fileID: 1486697403}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69676,7 +69712,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1493680151}
   - 212: {fileID: 1493680150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cashier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69826,7 +69862,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1495237277}
   - 212: {fileID: 1495237276}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_FrozenDinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69976,7 +70012,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1497136506}
   - 212: {fileID: 1497136507}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70378,7 +70414,7 @@ GameObject:
   - 33: {fileID: 1505055464}
   - 65: {fileID: 1505055463}
   - 23: {fileID: 1505055462}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70445,7 +70481,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1505574453}
   - 212: {fileID: 1505574452}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Dairy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70645,7 +70681,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1509080345}
   - 212: {fileID: 1509080346}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70845,7 +70881,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1511651426}
   - 212: {fileID: 1511651427}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70996,7 +71032,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1514850169}
   - 212: {fileID: 1514850170}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72630,7 +72666,7 @@ GameObject:
   - 33: {fileID: 1550855636}
   - 136: {fileID: 1550855635}
   - 23: {fileID: 1550855634}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72798,7 +72834,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1556881302}
   - 212: {fileID: 1556881303}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73214,7 +73250,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1565913342}
   - 212: {fileID: 1565913343}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73414,7 +73450,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1568861960}
   - 212: {fileID: 1568861959}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73516,7 +73552,7 @@ GameObject:
   - 33: {fileID: 1571882990}
   - 65: {fileID: 1571882989}
   - 23: {fileID: 1571882988}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73903,7 +73939,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1579200494}
   - 212: {fileID: 1579200495}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74603,7 +74639,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1600478594}
   - 212: {fileID: 1600478593}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_FrozenDinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74655,7 +74691,7 @@ GameObject:
   - 33: {fileID: 1601625572}
   - 136: {fileID: 1601625571}
   - 23: {fileID: 1601625570}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74773,7 +74809,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1605597581}
   - 212: {fileID: 1605597582}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74823,7 +74859,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1605825770}
   - 212: {fileID: 1605825769}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cashier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74873,7 +74909,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1606560639}
   - 212: {fileID: 1606560640}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74973,7 +75009,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1609193150}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NPCs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75012,7 +75048,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1610681968}
   - 212: {fileID: 1610681969}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75062,7 +75098,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1610884927}
   - 82: {fileID: 1610884926}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75198,7 +75234,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1612451769}
   - 212: {fileID: 1612451768}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Vitamins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75250,7 +75286,7 @@ GameObject:
   - 33: {fileID: 1613462234}
   - 136: {fileID: 1613462233}
   - 23: {fileID: 1613462232}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75421,7 +75457,7 @@ GameObject:
   - 65: {fileID: 1616828334}
   - 23: {fileID: 1616828333}
   - 114: {fileID: 1616828336}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleTrigger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75857,7 +75893,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1626495214}
   - 212: {fileID: 1626495215}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76207,7 +76243,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1630085589}
   - 212: {fileID: 1630085590}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76259,7 +76295,7 @@ GameObject:
   - 33: {fileID: 1633264310}
   - 136: {fileID: 1633264309}
   - 23: {fileID: 1633264308}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76526,7 +76562,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1635899828}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle1LeftSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76759,7 +76795,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1645431070}
   - 212: {fileID: 1645431069}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76912,7 +76948,7 @@ GameObject:
   - 65: {fileID: 1648674501}
   - 23: {fileID: 1648674500}
   - 114: {fileID: 1648674503}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78113,7 +78149,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1668046124}
   - 212: {fileID: 1668046125}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78213,7 +78249,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1672488418}
   - 212: {fileID: 1672488419}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78514,7 +78550,7 @@ GameObject:
   - 4: {fileID: 1682365353}
   - 212: {fileID: 1682365352}
   - 95: {fileID: 1682365354}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c5walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79107,7 +79143,7 @@ GameObject:
   - 33: {fileID: 1692857925}
   - 65: {fileID: 1692857924}
   - 23: {fileID: 1692857923}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80042,7 +80078,7 @@ GameObject:
   - 33: {fileID: 1715117251}
   - 65: {fileID: 1715117250}
   - 23: {fileID: 1715117249}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80913,7 +80949,7 @@ GameObject:
   - 33: {fileID: 1744298631}
   - 136: {fileID: 1744298630}
   - 23: {fileID: 1744298629}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80981,7 +81017,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1747887850}
   - 212: {fileID: 1747887849}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Beverages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81136,7 +81172,7 @@ GameObject:
   - 143: {fileID: 1752414461}
   - 114: {fileID: 1752414467}
   - 114: {fileID: 1752414466}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C12box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81451,7 +81487,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1761727276}
   - 212: {fileID: 1761727275}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81551,7 +81587,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1762429133}
   - 212: {fileID: 1762429132}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Mix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81751,7 +81787,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1764108069}
   - 212: {fileID: 1764108070}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Breakfast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82251,7 +82287,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1779473576}
   - 212: {fileID: 1779473577}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82601,7 +82637,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1795210845}
   - 212: {fileID: 1795210844}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Snacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82751,7 +82787,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1796681295}
   - 212: {fileID: 1796681296}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82902,7 +82938,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1798785501}
   - 212: {fileID: 1798785500}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Beverages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83502,7 +83538,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1809571863}
   - 212: {fileID: 1809571864}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Oils (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83552,7 +83588,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1809933629}
   - 212: {fileID: 1809933628}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Mix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83604,7 +83640,7 @@ GameObject:
   - 33: {fileID: 1811114412}
   - 136: {fileID: 1811114411}
   - 23: {fileID: 1811114410}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83672,7 +83708,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1811287941}
   - 212: {fileID: 1811287942}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Snacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83727,7 +83763,7 @@ GameObject:
   - 143: {fileID: 1812039821}
   - 114: {fileID: 1812039827}
   - 114: {fileID: 1812039826}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C3box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84092,7 +84128,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1814239449}
   - 212: {fileID: 1814239450}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84364,7 +84400,7 @@ GameObject:
   - 33: {fileID: 1817922487}
   - 136: {fileID: 1817922486}
   - 23: {fileID: 1817922485}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84532,7 +84568,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1821878251}
   - 212: {fileID: 1821878250}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bakery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84582,7 +84618,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1823713947}
   - 212: {fileID: 1823713946}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84849,7 +84885,7 @@ GameObject:
   - 4: {fileID: 1827363256}
   - 212: {fileID: 1827363257}
   - 95: {fileID: 1827363258}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c6Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85266,7 +85302,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1831528843}
   - 212: {fileID: 1831528844}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85766,7 +85802,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1845999861}
   - 212: {fileID: 1845999860}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Dairy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85916,7 +85952,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1848899210}
   - 212: {fileID: 1848899211}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86250,7 +86286,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1857791848}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87139,7 +87175,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1876745206}
   - 212: {fileID: 1876745207}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87239,7 +87275,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1876943304}
   - 212: {fileID: 1876943303}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_InstantDessert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87491,7 +87527,7 @@ GameObject:
   - 33: {fileID: 1880833777}
   - 65: {fileID: 1880833776}
   - 23: {fileID: 1880833775}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87561,7 +87597,7 @@ GameObject:
   - 65: {fileID: 1883990682}
   - 23: {fileID: 1883990681}
   - 114: {fileID: 1883990685}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NearAisle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87642,7 +87678,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1886203395}
   - 212: {fileID: 1886203396}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87776,6 +87812,50 @@ Prefab:
       propertyPath: m_Name
       value: NearAisle
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b3fd4a7f72b4da40ab019b510105e73, type: 2}
   m_RootGameObject: {fileID: 1105081606}
@@ -87790,7 +87870,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1888709831}
   - 212: {fileID: 1888709832}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87972,7 +88052,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1893373046}
   - 212: {fileID: 1893373047}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88123,7 +88203,7 @@ GameObject:
   - 4: {fileID: 1894088746}
   m_Layer: 0
   m_Name: Products
-  m_TagString: Untagged
+  m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88601,7 +88681,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1900541817}
   - 212: {fileID: 1900541816}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Canned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89085,7 +89165,7 @@ GameObject:
   - 33: {fileID: 1909838178}
   - 136: {fileID: 1909838177}
   - 23: {fileID: 1909838176}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89253,7 +89333,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1912101796}
   - 212: {fileID: 1912101795}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Breakfast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89553,7 +89633,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1918203098}
   - 212: {fileID: 1918203097}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bakery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89603,7 +89683,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1918424873}
   - 212: {fileID: 1918424872}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89704,7 +89784,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1920834363}
   - 212: {fileID: 1920834362}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_InstantDessert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89956,7 +90036,7 @@ GameObject:
   - 33: {fileID: 1927385162}
   - 136: {fileID: 1927385161}
   - 23: {fileID: 1927385160}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90024,7 +90104,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1928778214}
   - 212: {fileID: 1928778215}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90775,7 +90855,7 @@ GameObject:
   - 4: {fileID: 1948023131}
   - 212: {fileID: 1948023130}
   - 95: {fileID: 1948023129}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c2walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91416,7 +91496,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1965941941}
   - 212: {fileID: 1965941942}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91466,7 +91546,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1969026725}
   - 212: {fileID: 1969026724}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Vitamins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91966,7 +92046,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1983987509}
   - 212: {fileID: 1983987508}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92116,7 +92196,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1985952779}
   - 212: {fileID: 1985952778}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92217,7 +92297,7 @@ GameObject:
   - 4: {fileID: 1988906820}
   - 212: {fileID: 1988906819}
   - 95: {fileID: 1988906821}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c10walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92967,7 +93047,7 @@ GameObject:
   - 33: {fileID: 2007580559}
   - 65: {fileID: 2007580558}
   - 23: {fileID: 2007580557}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93084,7 +93164,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2008286040}
   - 212: {fileID: 2008286039}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Breakfast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93184,7 +93264,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2008533828}
   - 212: {fileID: 2008533829}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93235,7 +93315,7 @@ GameObject:
   - 4: {fileID: 2010011350}
   - 212: {fileID: 2010011352}
   - 95: {fileID: 2010011351}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: c2Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93301,7 +93381,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2013258185}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93532,7 +93612,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2017619098}
   - 212: {fileID: 2017619099}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93582,7 +93662,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2017808304}
   - 212: {fileID: 2017808305}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93711,6 +93791,226 @@ Prefab:
     - target: {fileID: 400082, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_RootOrder
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100036, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100058, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100060, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100080, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100088, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100090, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100096, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100098, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100100, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100102, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100104, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100106, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100108, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
@@ -94579,7 +94879,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2045653891}
   - 212: {fileID: 2045653890}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Breakfast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94781,7 +95081,7 @@ GameObject:
   - 33: {fileID: 2054357703}
   - 65: {fileID: 2054357702}
   - 23: {fileID: 2054357701}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95114,7 +95414,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2061173284}
   - 212: {fileID: 2061173285}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95164,7 +95464,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2061751337}
   - 212: {fileID: 2061751336}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Dairy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95264,7 +95564,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2062753221}
   - 212: {fileID: 2062753222}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95863,7 +96163,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2072631915}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Aisle5RightSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96168,7 +96468,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2080572007}
   - 212: {fileID: 2080572006}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Mix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96418,7 +96718,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2086271819}
   - 212: {fileID: 2086271820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96518,7 +96818,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2088380806}
   - 212: {fileID: 2088380805}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96623,7 +96923,7 @@ GameObject:
   - 143: {fileID: 2089614722}
   - 114: {fileID: 2089614728}
   - 114: {fileID: 2089614727}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C5box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96840,7 +97140,7 @@ GameObject:
   - 33: {fileID: 2096376724}
   - 65: {fileID: 2096376723}
   - 23: {fileID: 2096376722}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97307,7 +97607,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2117480703}
   - 212: {fileID: 2117480702}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Bakery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97623,7 +97923,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2128428229}
   - 212: {fileID: 2128428230}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97823,7 +98123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2133029058}
   - 212: {fileID: 2133029059}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shelf_Dairy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98025,7 +98325,7 @@ GameObject:
   - 33: {fileID: 2136430168}
   - 136: {fileID: 2136430167}
   - 23: {fileID: 2136430166}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98442,7 +98742,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2142908589}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98528,7 +98828,7 @@ GameObject:
   - 143: {fileID: 2145071630}
   - 114: {fileID: 2145071636}
   - 114: {fileID: 2145071635}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: C10box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
