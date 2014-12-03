@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CheckOutScrpt : MonoBehaviour {
-	public GameObject CheckOutSign;
-
+public class ItIsOver : MonoBehaviour {
+	public GameObject EndMessage;
 	// Use this for initialization
 	void Start () {
 	
@@ -11,19 +10,18 @@ public class CheckOutScrpt : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+	
 	}
-
 	void OnTriggerEnter(Collider c)
 	{
 		if (c.gameObject.tag == "Player") {
-						CheckOutSign.SetActive (true);
+						EndMessage.SetActive (true);
 				}
-		}
+	}
 	void OnTriggerExit(Collider c)
 	{
 		if (c.gameObject.tag == "Player") {
-						CheckOutSign.SetActive (false);
+						EndMessage.SetActive (false);
 				}
 	}
 }

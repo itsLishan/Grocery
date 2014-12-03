@@ -48,11 +48,14 @@ public class TimerTime : MonoBehaviour {
 	void OnGUI(){
 
 		if (end) {
-			if (GUI.Button (new Rect (Screen.width/2, Screen.height/2, 200, 200), "The Store has Closed!\nRestart")) {
-				Application.LoadLevel("GroceryBuild1.0");
-			}
+			//if (GUI.Button (new Rect (Screen.width/2, Screen.height/2, 200, 200), "The Store has Closed!\nRestart")) {
+				//Application.LoadLevel("GroceryBuild1.0");
+			//}
 						GUI.Label (new Rect (Screen.width/2, Screen.height/2, 400, 400), Restart);
+			if(Input.GetMouseButtonDown (0)){
+				Application.LoadLevel("GroceryBuild1.0");
 				}
 	}
 	}
 
+}

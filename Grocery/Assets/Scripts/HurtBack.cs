@@ -10,7 +10,7 @@ public class HurtBack : MonoBehaviour {
 	public int state = -2;
 	public GameObject player;
 	Player playerComponent;
-	bool wasHelped = false;
+	public bool wasHelped = false;
 	// Use this for initialization
 	void Start () {
 		actor = GetComponent<ActorSee> ();
