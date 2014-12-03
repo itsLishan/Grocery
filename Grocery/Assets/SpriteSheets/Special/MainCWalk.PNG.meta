@@ -6,6 +6,7 @@ TextureImporter:
     21300002: MainCWalk_1
     21300004: MainCWalk_2
     21300006: MainCWalk_3
+    21300008: MainCWalk_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +56,7 @@ TextureImporter:
         width: 184
         height: 341
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MainCWalk_1
       rect:
@@ -65,7 +66,7 @@ TextureImporter:
         width: 184
         height: 341
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MainCWalk_2
       rect:
@@ -75,7 +76,7 @@ TextureImporter:
         width: 184
         height: 341
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MainCWalk_3
       rect:
@@ -85,7 +86,17 @@ TextureImporter:
         width: 184
         height: 341
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MainCWalk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 792
+        height: 341
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
