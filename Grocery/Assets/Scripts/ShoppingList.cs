@@ -23,7 +23,7 @@ public class ShoppingList : MonoBehaviour {
 	}
 	void OnGUI(){
 		if (shoppingList) {
-						GUI.Label (new Rect ((Screen.width / 3) * 2, Screen.height / 20, 400, 400), ItemList2);
+						GUI.Label (new Rect ((Screen.width / 20), Screen.height / 20, 400, 400), ItemList2);
 				}
 
 
