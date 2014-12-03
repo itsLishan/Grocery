@@ -6,6 +6,7 @@ public class Aisle : MonoBehaviour {
 	public GameObject camera;
 	public float CameraPositionX;
 	public float delayAfterExit;
+	public int aisleNumber;
 	private Character playerComponent;
 	private MainCamera cameraComponent; 
 
@@ -25,12 +26,15 @@ public class Aisle : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
+		if (aisleNumber == 3)
+						print (col.name + " came in.");
 		if (col.gameObject.name == player.name){
 			cameraComponent.aisleCameraPositionX = CameraPositionX;
 		}
 		if (col.GetComponent<Character> ()){
 			Character characterComponent = col.GetComponent<Character> ();
 			characterComponent.isInAisle = true;
+			characterComponent.location = aisleNumber;
 		}
 	}
 
@@ -38,11 +42,13 @@ public class Aisle : MonoBehaviour {
 		if (col.GetComponent<Character> ()){
 			Character characterComponent = col.GetComponent<Character> ();
 			characterComponent.isInAisle = false;
-			if (col.gameObject.transform.position.z - transform.position.z > 0)
+			if (col.gameObject.transform.position.z - transform.position.z > 0){
 				characterComponent.isInFront = false;
-			else
+			}
+			else{
 				characterComponent.isInFront = true;
-
+				}
+			characterComponent.location = 0;
 			characterComponent.isExitingAisle = true;
 			yield return new WaitForSeconds(delayAfterExit);
 			characterComponent.isExitingAisle = false;

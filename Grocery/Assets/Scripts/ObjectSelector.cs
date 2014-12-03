@@ -18,7 +18,7 @@ public class ObjectSelector : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown(0)){
 			if(Physics.Raycast(ray, out hit)){
-				print ("something hit: " + hit.collider.gameObject.name);
+				//print ("something hit: " + hit.collider.gameObject.name);
 				if (hit.collider.gameObject.tag == "Destroyable"){
 					Destroy (hit.collider.gameObject);
 				}

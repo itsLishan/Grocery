@@ -9858,6 +9858,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &165941280
 GameObject:
   m_ObjectHideFlags: 0
@@ -12268,6 +12269,7 @@ MonoBehaviour:
   camera: {fileID: 82724478}
   CameraPositionX: .5
   delayAfterExit: 0
+  aisleNumber: 5
 --- !u!1 &211431207
 GameObject:
   m_ObjectHideFlags: 0
@@ -14592,6 +14594,7 @@ MonoBehaviour:
   camera: {fileID: 82724478}
   CameraPositionX: 40.5
   delayAfterExit: 0
+  aisleNumber: 1
 --- !u!23 &253095230
 Renderer:
   m_ObjectHideFlags: 0
@@ -17762,6 +17765,7 @@ MonoBehaviour:
   camera: {fileID: 82724478}
   CameraPositionX: 10.5
   delayAfterExit: 0
+  aisleNumber: 4
 --- !u!1 &325467172
 GameObject:
   m_ObjectHideFlags: 0
@@ -22167,6 +22171,26 @@ Prefab:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: aisleNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: aisleNumber
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: aisleNumber
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: aisleNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
+      propertyPath: aisleNumber
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9aa162388a87b84d937290ccb226ed3, type: 2}
   m_RootGameObject: {fileID: 302785350}
@@ -24262,6 +24286,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &447808854
 GameObject:
   m_ObjectHideFlags: 0
@@ -24985,6 +25010,9 @@ GameObject:
   - 65: {fileID: 458496021}
   - 23: {fileID: 458496020}
   - 143: {fileID: 458496019}
+  - 114: {fileID: 458496024}
+  - 114: {fileID: 458496023}
+  - 114: {fileID: 458496025}
   m_Layer: 0
   m_Name: HurtBackBox
   m_TagString: Untagged
@@ -24999,7 +25027,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 458496017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -43.3890762, y: 2.04615402, z: .00819969177}
+  m_LocalPosition: {x: 15.5037327, y: 2.04615402, z: 25.4123516}
   m_LocalScale: {x: 3.81499195, y: 3.8149941, z: .858376026}
   m_Children:
   - {fileID: 463429871}
@@ -25058,6 +25086,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 458496017}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &458496023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 458496017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b6da30a63e0616488aef10375f71d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInAisle: 0
+  isInFront: 0
+  isNearAisle: 0
+  isComingFromFront: 0
+  isExitingAisle: 0
+  location: 0
+--- !u!114 &458496024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 458496017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1255beb63f57c64784927659878601a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSeen: 0
+  character: {fileID: 0}
+  playerCharacter: {fileID: 0}
+--- !u!114 &458496025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 458496017}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e5e491aad50d546ab46a77d76b76ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDirection: {x: 0, y: 0, z: 0}
+  speed: 2
 --- !u!1 &460737253
 GameObject:
   m_ObjectHideFlags: 0
@@ -40608,6 +40680,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &744397240
 GameObject:
   m_ObjectHideFlags: 0
@@ -47090,6 +47163,7 @@ MonoBehaviour:
   camera: {fileID: 82724478}
   CameraPositionX: 30.5
   delayAfterExit: 0
+  aisleNumber: 2
 --- !u!1 &868783629
 GameObject:
   m_ObjectHideFlags: 0
@@ -53751,6 +53825,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &1006951591
 GameObject:
   m_ObjectHideFlags: 0
@@ -56401,7 +56476,7 @@ Transform:
   m_PrefabInternal: {fileID: 2021906752}
   m_GameObject: {fileID: 1060609139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.4512959, y: 2.04615402, z: -8.87893295}
+  m_LocalPosition: {x: 9.62226391, y: 2.04615402, z: 13.3364754}
   m_LocalScale: {x: 3.81499195, y: 3.8149941, z: .858376026}
   m_Children:
   - {fileID: 2013258185}
@@ -56436,6 +56511,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &1061714664
 GameObject:
   m_ObjectHideFlags: 0
@@ -63035,6 +63111,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!143 &1173080939
 CharacterController:
   m_ObjectHideFlags: 0
@@ -65265,6 +65342,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!114 &1209885335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67544,6 +67622,7 @@ MonoBehaviour:
   camera: {fileID: 82724478}
   CameraPositionX: -9.5
   delayAfterExit: 0
+  aisleNumber: 6
 --- !u!1 &1245246460
 GameObject:
   m_ObjectHideFlags: 0
@@ -76218,6 +76297,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &1416596709
 GameObject:
   m_ObjectHideFlags: 0
@@ -86802,6 +86882,7 @@ MonoBehaviour:
   camera: {fileID: 82724478}
   CameraPositionX: 20.5
   delayAfterExit: 0
+  aisleNumber: 3
 --- !u!1 &1617976906
 GameObject:
   m_ObjectHideFlags: 0
@@ -93483,6 +93564,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &1758265746
 GameObject:
   m_ObjectHideFlags: 0
@@ -96568,6 +96650,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &1812637656
 GameObject:
   m_ObjectHideFlags: 0
@@ -109319,6 +109402,14 @@ Prefab:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 13.3364754
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.62226391
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
     - {fileID: 11400000, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
@@ -112798,6 +112889,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &2090079845
 GameObject:
   m_ObjectHideFlags: 0
@@ -115067,6 +115159,7 @@ MonoBehaviour:
   isNearAisle: 0
   isComingFromFront: 0
   isExitingAisle: 0
+  location: 0
 --- !u!1 &2145449172
 GameObject:
   m_ObjectHideFlags: 0

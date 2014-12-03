@@ -8,6 +8,7 @@ public class Character : MonoBehaviour {
 	public bool isNearAisle;
 	public bool isComingFromFront;
 	public bool isExitingAisle;
+	public int location;
 	
 	void Awake (){
 		isInAisle = false;
