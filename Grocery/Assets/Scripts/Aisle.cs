@@ -26,8 +26,6 @@ public class Aisle : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if (aisleNumber == 3)
-						print (col.name + " came in.");
 		if (col.gameObject.name == player.name){
 			cameraComponent.aisleCameraPositionX = CameraPositionX;
 		}

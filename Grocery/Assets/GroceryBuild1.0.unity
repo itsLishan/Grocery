@@ -25015,7 +25015,7 @@ GameObject:
   - 114: {fileID: 458496025}
   m_Layer: 0
   m_Name: HurtBackBox
-  m_TagString: Untagged
+  m_TagString: Actor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25117,19 +25117,24 @@ MonoBehaviour:
   isSeen: 0
   character: {fileID: 0}
   playerCharacter: {fileID: 0}
+  isClicked: 0
 --- !u!114 &458496025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 458496017}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4e5e491aad50d546ab46a77d76b76ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f9225d7a67d07a419a41fd0be33c7ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDirection: {x: 0, y: 0, z: 0}
-  speed: 2
+  walk: {fileID: 783368707}
+  grabBack: {fileID: 1008886708}
+  hurt: {fileID: 1563564243}
+  standing: {fileID: 783368707}
+  actor: {fileID: 0}
+  state: 0
 --- !u!1 &460737253
 GameObject:
   m_ObjectHideFlags: 0

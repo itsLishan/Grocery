@@ -9,7 +9,8 @@ public class ActorSee : MonoBehaviour {
 	public Character character;
 	public Character playerCharacter;
 	private CharacterController controller;
-
+	public bool isClicked;
+	
 	GameObject player;
 
 	RaycastHit hit;
@@ -39,11 +40,22 @@ public class ActorSee : MonoBehaviour {
 		else
 			isSeen = false;
 
+		if (isClicked == true){
+			UnclickActor();
+		}
+
+
 	}
 
 	//move right just to start, to be detected by trigger
 	void MoveRight(){
 			controller.Move (transform.TransformDirection (Vector3.right) * Time.deltaTime);
 		}
+
+	public IEnumerator UnclickActor(){
+				yield return new WaitForSeconds (2);
+				isClicked = false;
+		}
+
 }
 
