@@ -20,7 +20,7 @@ public class ObjectSelector : MonoBehaviour {
 			if(Physics.Raycast(ray, out hit)){
 				print ("something hit: " + hit.collider.gameObject.name);
 				if (hit.collider.gameObject.tag == "Destroyable"){
-					print(hit.collider.gameObject.name);
+					Destroy (hit.collider.gameObject);
 				}
 			}
 		}
