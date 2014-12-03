@@ -6,9 +6,12 @@ public class ObjectSelector : MonoBehaviour {
 	// Use this for initialization
 	private RaycastHit hit;
 	private Ray ray;
+	public GameObject player;
+	Player playerComponent;
 
 	void Start () {
-	
+		player = GameObject.FindWithTag ("Player");
+		playerComponent = player.GetComponent<Player> ();
 	}
 	
 	// Update is called once per frame
@@ -18,8 +21,9 @@ public class ObjectSelector : MonoBehaviour {
 
 		if (Input.GetMouseButtonDown(0)){
 			if(Physics.Raycast(ray, out hit)){
-				print ("something hit: " + hit.collider.gameObject.name);
+				//print ("something hit: " + hit.collider.gameObject.name);
 				if (hit.collider.gameObject.tag == "Destroyable"){
+					playerComponent.isGrabbing = true;
 					Destroy (hit.collider.gameObject);
 				}
 
@@ -31,4 +35,7 @@ public class ObjectSelector : MonoBehaviour {
 		}
 	
 	}
+
+
+
 }

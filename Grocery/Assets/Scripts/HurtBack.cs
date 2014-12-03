@@ -7,11 +7,15 @@ public class HurtBack : MonoBehaviour {
 	public GameObject hurt;
 	public GameObject standing;
 	public ActorSee actor;
-	public int state = 0;
+	public int state = -2;
+	public GameObject player;
+	Player playerComponent;
 	bool wasHelped = false;
 	// Use this for initialization
 	void Start () {
 		actor = GetComponent<ActorSee> ();
+		player = GameObject.FindWithTag ("Player");
+		playerComponent = player.GetComponent<Player> ();
 	}
 	
 	// Update is called once per frame
@@ -32,23 +36,28 @@ public class HurtBack : MonoBehaviour {
 						walk.SetActive (true);
 						grabBack.SetActive (false);
 						hurt.SetActive (false);
+						standing.SetActive (false);
 				} 
 		else if (state == 1) {
 						walk.SetActive (false);
 						grabBack.SetActive (true);
 						hurt.SetActive (false);
+						standing.SetActive (false);
 				} 
 		else if (state == 2) {
 						walk.SetActive (false);
 						grabBack.SetActive (true);
 						hurt.SetActive (false);
+						standing.SetActive (false);
 				} 
 		else if (state == 3) {
 					walk.SetActive (false);
 					grabBack.SetActive (false);
 					hurt.SetActive (true);
+					standing.SetActive (false);
 					if (actor.isClicked)
 					{
+						playerComponent.isHelping = true;
 						wasHelped = true;
 						//TO DO - set off player helping animation
 					}
