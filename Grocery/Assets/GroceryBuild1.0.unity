@@ -4897,7 +4897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87efe18a565a4088bd4f27c86787ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Restart: {fileID: 0}
+  Restart: {fileID: 2800000, guid: 149a63ae54d3880478d9746328dcfe12, type: 3}
   Seconds: 0
   Minutes: 3
 --- !u!1 &82851095
