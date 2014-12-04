@@ -4,11 +4,14 @@ using System.Collections;
 public class Aisle : MonoBehaviour {
 	public GameObject player;
 	public GameObject camera;
-	public float CameraPositionX;
+	public bool exitFrontClockwise; //default for entry and exit is counter-clockwise around aisle walls
+	public bool exitBackClockwise;
+	public float cameraPositionX;
+	public float entryPositionX;
 	public float delayAfterExit;
 	public int aisleNumber;
 	private Character playerComponent;
-	private MainCamera cameraComponent; 
+	private MainCamera cameraComponent;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +21,17 @@ public class Aisle : MonoBehaviour {
 		cameraComponent = camera.GetComponent<MainCamera> ();
 		delayAfterExit = 3f;
 	}
-	
+	/* Settings for current layout 12/4/2014
+	 * Aisle; cameraPositionX; EntryPositionX
+	 * 6; -10.2; -16
+	 * 5; 0; -6
+	 * 4; 10.239; 4
+	 * 3; 20.328; 14
+	 * 2; 30.211; 24
+	 * 1; 40.234; 34
+	 * */
+
+
 	// Update is called once per frame
 	void Update () {
 	
@@ -27,12 +40,14 @@ public class Aisle : MonoBehaviour {
 	void OnTriggerEnter(Collider col)
 	{
 		if (col.gameObject.name == player.name){
-			cameraComponent.aisleCameraPositionX = CameraPositionX;
+			cameraComponent.aisleCameraPositionX = cameraPositionX;
 		}
 		if (col.GetComponent<Character> ()){
 			Character characterComponent = col.GetComponent<Character> ();
 			characterComponent.isInAisle = true;
 			characterComponent.location = aisleNumber;
+			characterComponent.aisleEntryPositionX = entryPositionX;
+			characterComponent.isEnteringAisle = true;
 		}
 	}
 
@@ -48,6 +63,8 @@ public class Aisle : MonoBehaviour {
 				}
 			characterComponent.location = 0;
 			characterComponent.isExitingAisle = true;
+			characterComponent.exitBackClockwise = exitBackClockwise;
+			characterComponent.exitFrontClockwise = exitFrontClockwise;
 			yield return new WaitForSeconds(delayAfterExit);
 			characterComponent.isExitingAisle = false;
 

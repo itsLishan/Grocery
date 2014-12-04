@@ -4,9 +4,10 @@ using System.Collections;
 public class NPC : MonoBehaviour {
 	
 	private CharacterController controller;
-	public Vector3 moveDirection;
+	private Vector3 moveDirection;
 	private Character character;
 	public float speed;
+	float enteringSpeedFactor = 15;
 
 
 	void Awake () {
@@ -35,11 +36,11 @@ public class NPC : MonoBehaviour {
 		else
 			moveDirection = Vector3.back * -1;
 
-		//moveDirection *= 5;
+		moveDirection *= enteringSpeedFactor;
 	}
 
 	void MoveThroughAisle(){
-		if (character.isComingFromFront)
+		if (character.isInFront)
 			MoveRight();
 		else
 			MoveLeft ();
