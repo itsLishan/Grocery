@@ -12,6 +12,7 @@ public class HurtBack : MonoBehaviour {
 	Player playerComponent;
 	Character character;
 	public bool wasHelped = false;
+	public Texture2D talkBubble;
 	// Use this for initialization
 	void Start () {
 		actor = GetComponent<ActorSee> ();
@@ -68,4 +69,17 @@ public class HurtBack : MonoBehaviour {
 		if (character.isClicked && !wasHelped)
 			character.isClicked = false;
 	}
+
+
+	void OnGUI () {
+		
+		Vector3 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
+		if (wasHelped && character.isClicked)
+		{
+			GUI.Label(new Rect (screenPosition.x, screenPosition.y - Screen.height/3, 256, 128), talkBubble);
+			GUI.contentColor = Color.black;
+			GUI.Label(new Rect (screenPosition.x + (Screen.height/20), screenPosition.y  - Screen.height/4, 256, 128), "Thank you!"	);
+		}
+	}
 }
+

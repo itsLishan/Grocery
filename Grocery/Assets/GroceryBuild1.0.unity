@@ -25335,7 +25335,7 @@ MonoBehaviour:
   isEnteringAisle: 0
   isClicked: 0
   talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
-  dialogue: Ohh my back. I can't lift this!
+  dialogue: Ohh my back. I can't lift this! Will you help me?
   aisleEntryPositionX: 0
   location: 0
 --- !u!114 &458496024
@@ -25371,6 +25371,7 @@ MonoBehaviour:
   state: 0
   player: {fileID: 0}
   wasHelped: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
 --- !u!1 &460737253
 GameObject:
   m_ObjectHideFlags: 0
