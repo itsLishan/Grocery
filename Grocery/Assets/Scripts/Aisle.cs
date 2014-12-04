@@ -19,7 +19,6 @@ public class Aisle : MonoBehaviour {
 		camera = GameObject.FindWithTag ("MainCamera");
 		playerComponent = player.GetComponent<Character> ();
 		cameraComponent = camera.GetComponent<MainCamera> ();
-		delayAfterExit = 3f;
 	}
 	/* Settings for current layout 12/4/2014
 	 * Aisle; cameraPositionX; EntryPositionX
