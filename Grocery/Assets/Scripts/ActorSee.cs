@@ -9,7 +9,7 @@ public class ActorSee : MonoBehaviour {
 	public Character character;
 	public Character playerCharacter;
 	private CharacterController controller;
-	public bool isClicked;
+
 	
 	GameObject player;
 
@@ -40,7 +40,7 @@ public class ActorSee : MonoBehaviour {
 		else
 			isSeen = false;
 
-		if (isClicked == true){
+		if (character.isClicked == true){
 			UnclickActor();
 		}
 
@@ -54,7 +54,7 @@ public class ActorSee : MonoBehaviour {
 
 	public IEnumerator UnclickActor(){
 				yield return new WaitForSeconds (2);
-				isClicked = false;
+				character.isClicked = false;
 		}
 
 }

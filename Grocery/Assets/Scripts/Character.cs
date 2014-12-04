@@ -11,6 +11,9 @@ public class Character : MonoBehaviour {
 	public bool isNearAisle;
 	public bool isExitingAisle;
 	public bool isEnteringAisle = false;
+	public bool isClicked;
+	public Texture2D talkBubble;
+	public string dialogue;
 
 	public float aisleEntryPositionX;
 	public int location;
@@ -63,6 +66,16 @@ public class Character : MonoBehaviour {
 			}
 		}
 	}
-	
+
+	void OnGUI () {
+
+		Vector3 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
+		if (isClicked)
+		{
+			GUI.Label(new Rect (screenPosition.x, screenPosition.y - Screen.height/3, 256, 128), talkBubble);
+			GUI.contentColor = Color.black;
+			GUI.Label(new Rect (screenPosition.x + (Screen.height/20), screenPosition.y  - Screen.height/4, 256, 128), dialogue	);
+		}
+	}
 
 }

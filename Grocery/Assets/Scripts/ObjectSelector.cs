@@ -27,9 +27,9 @@ public class ObjectSelector : MonoBehaviour {
 					Destroy (hit.collider.gameObject);
 				}
 
-				else if (hit.collider.gameObject.tag == "Actor"){
-					ActorSee actor = hit.collider.gameObject.GetComponent<ActorSee>();
-					actor.isClicked = true;
+				else if (hit.collider.GetComponent<Character> ()){
+					Character character = hit.collider.gameObject.GetComponent<Character>();
+					character.isClicked = !character.isClicked;
 				}
 			}
 		}

@@ -891,7 +891,7 @@ GameObject:
   - 33: {fileID: 22723759}
   - 65: {fileID: 22723758}
   - 23: {fileID: 22723757}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlocker5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1083,7 +1083,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 26126657}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3260,7 +3260,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 52587572}
   - 212: {fileID: 52587573}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9825,7 +9825,7 @@ GameObject:
   - 143: {fileID: 164437685}
   - 114: {fileID: 164437691}
   - 114: {fileID: 164437690}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C11box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9933,6 +9933,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: I think this recipe is in French!
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &165941280
@@ -10006,7 +10009,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 167241752}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10699,7 +10702,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 177022246}
   - 212: {fileID: 177022247}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11694,7 +11697,7 @@ GameObject:
   - 4: {fileID: 191395804}
   - 212: {fileID: 191395803}
   - 95: {fileID: 191395805}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c3walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15837,7 +15840,7 @@ GameObject:
   - 4: {fileID: 287239813}
   - 212: {fileID: 287239814}
   - 95: {fileID: 287239815}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c9Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17411,7 +17414,7 @@ GameObject:
   - 4: {fileID: 313746528}
   - 212: {fileID: 313746527}
   - 95: {fileID: 313746529}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c12Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18672,7 +18675,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 334242888}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19463,7 +19466,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 361336190}
   - 212: {fileID: 361336189}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21739,7 +21742,7 @@ GameObject:
   - 4: {fileID: 403109967}
   - 212: {fileID: 403109968}
   - 95: {fileID: 403109969}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c8Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24399,7 +24402,7 @@ GameObject:
   - 143: {fileID: 447466276}
   - 114: {fileID: 447466282}
   - 114: {fileID: 447466281}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C8box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24507,6 +24510,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: I wonder how much flour I'll need.
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &447808854
@@ -25327,6 +25333,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: Ohh my back. I can't lift this!
   aisleEntryPositionX: 0
   location: 0
 --- !u!114 &458496024
@@ -25343,7 +25352,6 @@ MonoBehaviour:
   isSeen: 0
   character: {fileID: 0}
   playerCharacter: {fileID: 0}
-  isClicked: 0
 --- !u!114 &458496025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28467,7 +28475,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 516299818}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28820,7 +28828,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 524426333}
   - 212: {fileID: 524426334}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29686,7 +29694,7 @@ GameObject:
   - 33: {fileID: 544635036}
   - 65: {fileID: 544635035}
   - 23: {fileID: 544635034}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlocker6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29754,7 +29762,7 @@ GameObject:
   - 4: {fileID: 544678077}
   - 212: {fileID: 544678076}
   - 95: {fileID: 544678078}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c8walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30300,7 +30308,7 @@ GameObject:
   - 4: {fileID: 555595298}
   - 212: {fileID: 555595297}
   - 95: {fileID: 555595299}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c11walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31494,7 +31502,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 581764488}
   - 212: {fileID: 581764487}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32466,7 +32474,7 @@ GameObject:
   - 33: {fileID: 597524391}
   - 65: {fileID: 597524390}
   - 23: {fileID: 597524389}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlocker1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34112,7 +34120,7 @@ GameObject:
   - 4: {fileID: 621585623}
   - 212: {fileID: 621585624}
   - 95: {fileID: 621585625}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c10Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34507,7 +34515,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 627954046}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35843,7 +35851,7 @@ GameObject:
   - 4: {fileID: 651047188}
   - 212: {fileID: 651047187}
   - 95: {fileID: 651047189}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c6walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36454,7 +36462,7 @@ GameObject:
   - 4: {fileID: 659005221}
   - 212: {fileID: 659005222}
   - 95: {fileID: 659005223}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c5Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37139,7 +37147,7 @@ GameObject:
   - 4: {fileID: 670676819}
   - 212: {fileID: 670676818}
   - 95: {fileID: 670676820}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c9walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37510,7 +37518,7 @@ GameObject:
   - 33: {fileID: 677008468}
   - 65: {fileID: 677008467}
   - 23: {fileID: 677008466}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlocker4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41158,7 +41166,7 @@ GameObject:
   - 143: {fileID: 744321518}
   - 114: {fileID: 744321524}
   - 114: {fileID: 744321523}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C4box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41234,7 +41242,7 @@ Transform:
   m_Children:
   - {fileID: 882375035}
   m_Father: {fileID: 1609193150}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!114 &744321523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41266,6 +41274,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: I can't find waffle fries. Ugh.
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &744397240
@@ -41915,7 +41926,7 @@ GameObject:
   - 4: {fileID: 751990161}
   - 212: {fileID: 751990160}
   - 95: {fileID: 751990162}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c4Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48203,7 +48214,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 882375035}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51051,7 +51062,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 929134282}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52393,7 +52404,7 @@ GameObject:
   - 4: {fileID: 964446966}
   - 212: {fileID: 964446965}
   - 95: {fileID: 964446964}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C1WalkSprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54309,7 +54320,7 @@ GameObject:
   - 143: {fileID: 1005393025}
   - 114: {fileID: 1005393031}
   - 114: {fileID: 1005393030}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C9box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54417,6 +54428,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: Good day.
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &1006951591
@@ -56130,7 +56144,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1038434439}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56477,7 +56491,7 @@ GameObject:
   - 4: {fileID: 1049770479}
   - 212: {fileID: 1049770478}
   - 95: {fileID: 1049770480}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c12walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56998,7 +57012,7 @@ GameObject:
   - 143: {fileID: 1060609140}
   - 114: {fileID: 1060609146}
   - 114: {fileID: 1060609145}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C6box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57106,6 +57120,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: It's been raining a lot lately!
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &1061714664
@@ -58786,7 +58803,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1088302123}
   - 212: {fileID: 1088302122}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60974,7 +60991,7 @@ GameObject:
   - 4: {fileID: 1132464365}
   - 212: {fileID: 1132464366}
   - 95: {fileID: 1132464367}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c3Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63712,7 +63729,7 @@ GameObject:
   - 143: {fileID: 1173080939}
   - 114: {fileID: 1173080938}
   - 114: {fileID: 1173080937}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C1box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63765,6 +63782,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: 
   aisleEntryPositionX: 0
   location: 0
 --- !u!143 &1173080939
@@ -66000,6 +66020,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 0}
+  dialogue: 
   aisleEntryPositionX: 0
   location: 0
 --- !u!114 &1209885335
@@ -66965,7 +66988,7 @@ GameObject:
   - 4: {fileID: 1230371968}
   - 212: {fileID: 1230371967}
   - 95: {fileID: 1230371969}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c11Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69705,7 +69728,7 @@ GameObject:
   - 4: {fileID: 1270140527}
   - 212: {fileID: 1270140526}
   - 95: {fileID: 1270140528}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c4walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71364,7 +71387,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1307913971}
   - 212: {fileID: 1307913972}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75123,7 +75146,7 @@ GameObject:
   - 4: {fileID: 1373481018}
   - 212: {fileID: 1373481020}
   - 95: {fileID: 1373481019}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C1Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77206,7 +77229,7 @@ GameObject:
   - 143: {fileID: 1415540681}
   - 114: {fileID: 1415540686}
   - 114: {fileID: 1415540685}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C2box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77314,6 +77337,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: 
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &1416596709
@@ -82675,7 +82701,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1511651426}
   - 212: {fileID: 1511651427}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84801,7 +84827,7 @@ GameObject:
   - 33: {fileID: 1551357479}
   - 65: {fileID: 1551357478}
   - 23: {fileID: 1551357477}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlocker2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87458,7 +87484,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1606560639}
   - 212: {fileID: 1606560640}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87591,8 +87617,8 @@ Transform:
   - {fileID: 1173080936}
   - {fileID: 1415540680}
   - {fileID: 1812039825}
-  - {fileID: 744321522}
   - {fileID: 2089614726}
+  - {fileID: 744321522}
   - {fileID: 1060609144}
   - {fileID: 447466280}
   - {fileID: 1005393029}
@@ -88591,7 +88617,7 @@ GameObject:
   - 33: {fileID: 1626494627}
   - 65: {fileID: 1626494626}
   - 23: {fileID: 1626494625}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlocker3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91804,7 +91830,7 @@ GameObject:
   - 4: {fileID: 1682365353}
   - 212: {fileID: 1682365352}
   - 95: {fileID: 1682365354}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c5walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94783,7 +94809,7 @@ GameObject:
   - 143: {fileID: 1752414461}
   - 114: {fileID: 1752414467}
   - 114: {fileID: 1752414466}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C12box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94891,6 +94917,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: MOVE IT!
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &1758265746
@@ -96727,7 +96756,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1796681295}
   - 212: {fileID: 1796681296}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97942,7 +97971,7 @@ GameObject:
   - 143: {fileID: 1812039821}
   - 114: {fileID: 1812039827}
   - 114: {fileID: 1812039826}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C3box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98050,6 +98079,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: 
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &1812637656
@@ -99167,7 +99199,7 @@ GameObject:
   - 4: {fileID: 1827363256}
   - 212: {fileID: 1827363257}
   - 95: {fileID: 1827363258}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c6Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105827,7 +105859,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1918424873}
   - 212: {fileID: 1918424872}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107312,7 +107344,7 @@ GameObject:
   - 4: {fileID: 1948023131}
   - 212: {fileID: 1948023130}
   - 95: {fileID: 1948023129}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c2walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108966,7 +108998,7 @@ GameObject:
   - 4: {fileID: 1988906820}
   - 212: {fileID: 1988906819}
   - 95: {fileID: 1988906821}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c10walksprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110085,7 +110117,7 @@ GameObject:
   - 4: {fileID: 2010011350}
   - 212: {fileID: 2010011352}
   - 95: {fileID: 2010011351}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: c2Grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110151,7 +110183,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2013258185}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110629,167 +110661,167 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100052, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100058, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100060, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100064, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100068, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100070, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100072, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100074, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100076, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100078, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100080, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100082, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
@@ -110797,55 +110829,55 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100084, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100086, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100088, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100090, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100092, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100094, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100096, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100098, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100100, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100102, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100104, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100106, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100108, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400060, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -110954,6 +110986,14 @@ Prefab:
     - target: {fileID: 400044, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
       propertyPath: m_LocalPosition.x
       value: -2.2081399
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: ca4a12bc683ff4545a5532405e0d76d6, type: 2}
@@ -114033,7 +114073,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2083596455}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AisleBlockers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114361,7 +114401,7 @@ GameObject:
   - 143: {fileID: 2089614722}
   - 114: {fileID: 2089614728}
   - 114: {fileID: 2089614727}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C5box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114437,7 +114477,7 @@ Transform:
   m_Children:
   - {fileID: 929134282}
   m_Father: {fileID: 1609193150}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!114 &2089614727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114469,6 +114509,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: 
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &2090079845
@@ -116604,7 +116647,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2142908589}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116703,7 +116746,7 @@ GameObject:
   - 143: {fileID: 2145071630}
   - 114: {fileID: 2145071636}
   - 114: {fileID: 2145071635}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: C10box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116811,6 +116854,9 @@ MonoBehaviour:
   isNearAisle: 0
   isExitingAisle: 0
   isEnteringAisle: 0
+  isClicked: 0
+  talkBubble: {fileID: 2800000, guid: 87d383dbc4bdb4157887c89d6de26ff3, type: 3}
+  dialogue: What's the opposite of strawberry???
   aisleEntryPositionX: 0
   location: 0
 --- !u!1 &2145449172
