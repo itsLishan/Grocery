@@ -33306,13 +33306,13 @@ GUIText:
   serializedVersion: 3
   m_Text: 
   m_Anchor: 0
-  m_Alignment: 0
-  m_PixelOffset: {x: 0, y: 0}
+  m_Alignment: 1
+  m_PixelOffset: {x: 600, y: 0}
   m_LineSpacing: 0
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 24
+  m_FontSize: 48
   m_FontStyle: 1
   m_Color:
     serializedVersion: 2
@@ -66037,7 +66037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20803ba72ee6dd4eb654b947f0d46c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
   grabAnimation: {fileID: 1128864670}
   walkAnimation: {fileID: 892586395}
   helpAnimation: {fileID: 1434909405}
