@@ -4955,6 +4955,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  Strudel: {fileID: 1923357164}
+  Mix: {fileID: 2145435597}
+  Eggs: {fileID: 1113976036}
+  Milk: {fileID: 1536140759}
+  Cheese: {fileID: 1332767540}
+  Salt: {fileID: 1216285694}
+  Water: {fileID: 1692556466}
+  CatFood: {fileID: 455398278}
+  allItems: 0
 --- !u!114 &82724488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4967,6 +4976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Restart: {fileID: 2800000, guid: 149a63ae54d3880478d9746328dcfe12, type: 3}
+  NoTime: {fileID: 2800000, guid: 8e5b7da495230974d9cc6ba1cc70ea6b, type: 3}
   Seconds: 0
   Minutes: 3
 --- !u!1 &82851095
@@ -24880,6 +24890,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .900000215, y: .50999999, z: .200000048}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &455398278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 455398281}
+  - 212: {fileID: 455398280}
+  - 65: {fileID: 455398279}
+  m_Layer: 0
+  m_Name: Pet-CatFood
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &455398279
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 455398278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.36000037, y: .400000006, z: .200000048}
+  m_Center: {x: 1.90734863e-06, y: 0, z: 1.90734863e-06}
+--- !u!212 &455398280
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 455398278}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b7814742dcf07be4088633f5bdbce36c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &455398281
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 455398278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .229442284, y: -.322520614, z: .141991928}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 6
 --- !u!1 &455470593
 GameObject:
   m_ObjectHideFlags: 0
@@ -59973,6 +60046,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .290000051, y: .49000001, z: .200000048}
   m_Center: {x: 0, y: 0, z: 4.76837158e-07}
+--- !u!1 &1113976036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1113976039}
+  - 212: {fileID: 1113976038}
+  - 65: {fileID: 1113976037}
+  m_Layer: 0
+  m_Name: Dairy-Eggs
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1113976037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113976036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .940000236, y: .379999995, z: .200000048}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!212 &1113976038
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113976036}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ce1b17480b94e2d4384a3ef8bcc84fce, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1113976039
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113976036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .174121559, y: -.138113678, z: .141991928}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 7
 --- !u!1 &1117245781
 GameObject:
   m_ObjectHideFlags: 0
@@ -65947,6 +66083,14 @@ Transform:
   - {fileID: 1128864671}
   - {fileID: 1434909407}
   - {fileID: 1371522976}
+  - {fileID: 1923357167}
+  - {fileID: 1692556469}
+  - {fileID: 455398281}
+  - {fileID: 1113976039}
+  - {fileID: 2145435600}
+  - {fileID: 1536140762}
+  - {fileID: 1332767543}
+  - {fileID: 1216285697}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!143 &1209885330
@@ -66236,6 +66380,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .730000198, y: .540000021, z: .200000048}
   m_Center: {x: -1.90734863e-06, y: 0, z: -9.53674316e-07}
+--- !u!1 &1216285694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1216285697}
+  - 212: {fileID: 1216285696}
+  - 65: {fileID: 1216285695}
+  m_Layer: 0
+  m_Name: Spices-Salt
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1216285695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216285694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .180000007, y: .430000007, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!212 &1216285696
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216285694}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8abdf2d365fda684d8da4b2e872f2e38, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1216285697
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216285694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .100288756, y: -.214456216, z: .141991928}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 11
 --- !u!1 &1218330384
 GameObject:
   m_ObjectHideFlags: 0
@@ -72788,6 +72995,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .400000066, y: .50999999, z: .200000033}
   m_Center: {x: 0, y: 0, z: -4.76837158e-07}
+--- !u!1 &1332767540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1332767543}
+  - 212: {fileID: 1332767542}
+  - 65: {fileID: 1332767541}
+  m_Layer: 0
+  m_Name: Dairy-Cheese
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1332767541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332767540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .660000205, y: .550000012, z: .200000048}
+  m_Center: {x: 9.53674316e-07, y: 0, z: 0}
+--- !u!212 &1332767542
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332767540}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2dd17784696408b44a87f8fecf18b0be, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1332767543
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332767540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .343708962, y: -.173936799, z: .141991928}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 10
 --- !u!1 &1332784793
 GameObject:
   m_ObjectHideFlags: 0
@@ -75008,7 +75278,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 884235219
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3f6876eaab02b3d4aa6ce2bf312c3a1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1371552615
@@ -77074,10 +77344,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fbf635914a8bee42bf73e4d70e2328d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ending1: {fileID: 2800000, guid: c0251cdd21a86cc4ca4518c002f5efcf, type: 3}
   Ending2: {fileID: 2800000, guid: 90657de847a62234aa1efaefb4539680, type: 3}
   Ending3: {fileID: 2800000, guid: 5ea26b160cc7c0e47afadd5b66a3bde8, type: 3}
   actor: {fileID: 0}
   hurt: {fileID: 0}
+  complete: {fileID: 0}
+  camera: {fileID: 0}
 --- !u!4 &1412338964
 Transform:
   m_ObjectHideFlags: 0
@@ -84180,6 +84453,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .410000056, y: .389999986, z: .200000033}
   m_Center: {x: 1.90734863e-06, y: 0, z: 0}
+--- !u!1 &1536140759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1536140762}
+  - 212: {fileID: 1536140761}
+  - 65: {fileID: 1536140760}
+  m_Layer: 0
+  m_Name: Dairy-Milk
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1536140760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536140759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .340000093, y: .550000012, z: .200000048}
+  m_Center: {x: 0, y: 0, z: 3.81469727e-06}
+--- !u!212 &1536140761
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536140759}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 42c30a94d0735d74eaef6f5fa707fd35, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1536140762
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536140759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .158712745, y: -.199779361, z: .141991928}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 9
 --- !u!1 &1537973722
 GameObject:
   m_ObjectHideFlags: 0
@@ -92456,6 +92792,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .410000086, y: .389999986, z: .200000048}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1692556466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1692556469}
+  - 212: {fileID: 1692556468}
+  - 65: {fileID: 1692556467}
+  m_Layer: 0
+  m_Name: Beverages-Water
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1692556467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692556466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .180000052, y: .5, z: .200000048}
+  m_Center: {x: 0, y: 0, z: 2.38418579e-07}
+--- !u!212 &1692556468
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692556466}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b605dc652159fd04ba6a014d59da624b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1692556469
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1692556466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .287703782, y: -.175703362, z: .0377814099}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 5
 --- !u!1 &1692857922
 GameObject:
   m_ObjectHideFlags: 0
@@ -106207,6 +106606,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .720000207, y: .569999993, z: .200000048}
   m_Center: {x: 1.90734863e-06, y: 0, z: 0}
+--- !u!1 &1923357164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1923357167}
+  - 212: {fileID: 1923357166}
+  - 65: {fileID: 1923357165}
+  m_Layer: 0
+  m_Name: Dessert-Strudel
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1923357165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923357164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .7900002, y: .519999981, z: .200000048}
+  m_Center: {x: 1.90734863e-06, y: 0, z: 0}
+--- !u!212 &1923357166
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923357164}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 557b03be1ee23d141ab6e25769a26c3b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1923357167
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923357164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .328287661, y: -.30774042, z: .0426899046}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 4
 --- !u!1 &1924921220
 GameObject:
   m_ObjectHideFlags: 0
@@ -116860,6 +117322,69 @@ MonoBehaviour:
   dialogue: What's the opposite of strawberry???
   aisleEntryPositionX: 0
   location: 0
+--- !u!1 &2145435597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2145435600}
+  - 212: {fileID: 2145435599}
+  - 65: {fileID: 2145435598}
+  m_Layer: 0
+  m_Name: Mixes-Mix
+  m_TagString: Destroyable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &2145435598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145435597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: .410000086, y: .379999995, z: .200000048}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!212 &2145435599
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145435597}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 884235219
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 6e49aede1a4416a48bdf82770f0f0124, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &2145435600
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145435597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .228466362, y: -.223857492, z: .141991928}
+  m_LocalScale: {x: .262123764, y: .262123644, z: 1.1649909}
+  m_Children: []
+  m_Father: {fileID: 1209885329}
+  m_RootOrder: 8
 --- !u!1 &2145449172
 GameObject:
   m_ObjectHideFlags: 0

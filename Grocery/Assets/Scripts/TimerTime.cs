@@ -3,6 +3,7 @@ using System.Collections;
 
 public class TimerTime : MonoBehaviour {
 	public Texture2D Restart;
+	public Texture2D NoTime;
 	public float Seconds = 59;
 	public float Minutes = 0;
 	bool start = false;
@@ -51,7 +52,8 @@ public class TimerTime : MonoBehaviour {
 			//if (GUI.Button (new Rect (Screen.width/2, Screen.height/2, 200, 200), "The Store has Closed!\nRestart")) {
 				//Application.LoadLevel("GroceryBuild1.0");
 			//}
-						GUI.Label (new Rect (Screen.width/2, (Screen.height/3), 400, 400), Restart);
+			GUI.Label (new Rect (Screen.width/3, Screen.height/10, 800,800), NoTime); 
+						GUI.Label (new Rect (Screen.width/2, (Screen.height/3), 800, 800), Restart);
 			if(Input.GetMouseButtonDown (0)){
 				Application.LoadLevel("GroceryBuild1.0");
 				}
