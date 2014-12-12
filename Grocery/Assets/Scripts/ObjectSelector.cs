@@ -16,6 +16,7 @@ public class ObjectSelector : MonoBehaviour {
 	public GameObject Salt;
 	public GameObject Water;
 	public GameObject CatFood;
+	public GameObject DogFood;
 	int strudel = 0;
 	int mix = 0;
 	int eggs = 0;
@@ -72,6 +73,11 @@ public class ObjectSelector : MonoBehaviour {
 										if (hit.collider.gameObject.name == "Pet-CatFood") {
 												CatFood.SetActive (true);
 												catfood = 1;
+										}
+										if (playerComponent.canHelp && hit.collider.gameObject.name =="Pet-DogFood"){
+												DogFood.SetActive (true);
+												playerComponent.isHelping = true;
+												playerComponent.canHelp = false;
 										}
 
 										Destroy (hit.collider.gameObject);

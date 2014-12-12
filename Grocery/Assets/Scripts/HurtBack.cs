@@ -6,80 +6,100 @@ public class HurtBack : MonoBehaviour {
 	public GameObject grabBack;
 	public GameObject hurt;
 	public GameObject standing;
-	public ActorSee actor;
-	public int state = -4;
+	public GameObject waitingHelp;
+	public GameObject bubble;
+	public NPC npcComponent;
+	SpriteRenderer bubbleRenderer;
+	public Sprite[] bubbles;
+	public bool wasHelped = false;
+	public Texture2D talkBubble;
 	public GameObject player;
 	Player playerComponent;
 	Character character;
-	public bool wasHelped = false;
-	public Texture2D talkBubble;
+	ActorSee actor;
+	public enum States{Hurt = 0, HurtClicked = 1, WaitingForHelp = 2, JustHelped = 3, Helped = 4};
+	public States state  = States.Hurt;
+
 	// Use this for initialization
 	void Start () {
 		actor = GetComponent<ActorSee> ();
+		npcComponent = GetComponent<NPC> ();
 		player = GameObject.FindWithTag ("Player");
 		playerComponent = player.GetComponent<Player> ();
 		character = GetComponent<Character> ();
+		bubbleRenderer = bubble.GetComponent<SpriteRenderer> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (state < 3 && ((actor.isSeen && state % 2 == 0)|| (!actor.isSeen && state%2 != 0)))
-			state++;
-		
-		if (wasHelped) {
-			walk.SetActive (false);
-			grabBack.SetActive (false);
-			hurt.SetActive (false);
-			standing.SetActive (true);
+		AnimateState ();
+		ChangeState ();
 
-				}
-
-		else if (state == 0) {
-						walk.SetActive (true);
-						grabBack.SetActive (false);
-						hurt.SetActive (false);
-						standing.SetActive (false);
-				} 
-		else if (state == 1) {
-						walk.SetActive (false);
-						grabBack.SetActive (true);
-						hurt.SetActive (false);
-						standing.SetActive (false);
-				} 
-		else if (state == 2) {
-						walk.SetActive (false);
-						grabBack.SetActive (true);
-						hurt.SetActive (false);
-						standing.SetActive (false);
-				} 
-		else if (state == 3) {
-					walk.SetActive (false);
-					grabBack.SetActive (false);
-					hurt.SetActive (true);
-					standing.SetActive (false);
-					if (character.isClicked)
-					{
+/*
 						playerComponent.isHelping = true;
 						wasHelped = true;
 						//TO DO - set off player helping animation
 					}
+		}*/
+
+	}
+
+	void AnimateState() {
+				if (state == States.Hurt) {
+						walk.SetActive (false);
+						waitingHelp.SetActive (false);
+						hurt.SetActive (true);
+						standing.SetActive (false);
+				}
+
+				if (state == States.HurtClicked){
+						walk.SetActive (false);
+						waitingHelp.SetActive (false);
+						hurt.SetActive (true);
+						standing.SetActive (false);
+				}
+
+				if (state == States.WaitingForHelp) {
+						walk.SetActive (false);
+						waitingHelp.SetActive (true);
+						hurt.SetActive (false);
+						standing.SetActive (false);
+				}
+
+				if (state == States.JustHelped) {
+						walk.SetActive (false);
+						waitingHelp.SetActive (false);
+						hurt.SetActive (false);
+						standing.SetActive (true);
+				}
+
+				if (state == States.Helped) {
+						walk.SetActive (true);
+						waitingHelp.SetActive (false);
+						hurt.SetActive (false);
+						standing.SetActive (false);
+						npcComponent.enabled = true;
+						this.enabled = false;
+				}
+		bubbleRenderer.sprite = bubbles [(int)state];
 		}
 
-		if (character.isClicked && !wasHelped)
+	void ChangeState (){
+						if (character.isClicked && state == States.Hurt)
+								state = States.HurtClicked;
+						if (character.isClicked && state == States.HurtClicked){
+								state = States.WaitingForHelp;
+								playerComponent.canHelp = true;
+						}
+						else if (playerComponent.hasHelped && state == States.WaitingForHelp){
+								state = States.JustHelped;
+								wasHelped = true;
+						}
+						else if (character.isClicked && state == States.JustHelped)
+								state = States.Helped;
 			character.isClicked = false;
-	}
-
-
-	void OnGUI () {
-		
-		Vector3 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
-		if (wasHelped && character.isClicked)
-		{
-			GUI.Label(new Rect (screenPosition.x, screenPosition.y - Screen.height/3, 256, 128), talkBubble);
-			GUI.contentColor = Color.black;
-			GUI.Label(new Rect (screenPosition.x + (Screen.height/20), screenPosition.y  - Screen.height/4, 256, 128), "Thank you!"	);
 		}
-	}
+
 }
 

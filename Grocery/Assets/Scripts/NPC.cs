@@ -3,6 +3,7 @@ using System.Collections;
 
 public class NPC : MonoBehaviour {
 	
+	public GameObject bubble;
 	private CharacterController controller;
 	private Vector3 moveDirection;
 	private Character character;
@@ -26,6 +27,9 @@ public class NPC : MonoBehaviour {
 
 		moveDirection *= speed;
 		controller.Move (moveDirection * Time.deltaTime);
+
+		DisplayBubble ();
+
 			 
 	}
 
@@ -60,5 +64,16 @@ public class NPC : MonoBehaviour {
 		moveDirection = Vector3.zero;
 	}
 
-
+	void DisplayBubble(){
+				if (!character.isClicked) {
+						bubble.SetActive (false);
+				} else {
+						bubble.SetActive (true);
+						UnclickCharacter();
+				}
+		}
+	public IEnumerator UnclickCharacter(){
+		yield return new WaitForSeconds (3);
+		character.isClicked = false;
+	}
 }

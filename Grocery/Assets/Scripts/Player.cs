@@ -12,7 +12,9 @@ public class Player : MonoBehaviour {
 	public int helpMax;
 	public int grabMax;
 	public bool isGrabbing;
+	public bool canHelp;
 	public bool isHelping;
+	public bool hasHelped;
 	public int grabCounter = 0;
 	public int helpCounter = 0;
 	bool wasWalkingRight = true;
@@ -30,6 +32,7 @@ public class Player : MonoBehaviour {
 								Help ();
 								helpCounter++;
 						} else {
+								hasHelped = true;
 								isHelping = false;
 								helpCounter = 0;
 						}
